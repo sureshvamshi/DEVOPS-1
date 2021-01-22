@@ -1,20 +1,19 @@
 # GIT
-Training
 
 ---
-DistributedGIT
+#DistributedGIT
 
 <img src="DistributedGIT.PNG"/>
 
 
 ---
-BranchingStrategy
+#BranchingStrategy
 
 <img src="BranchingStrategy.PNG"/>
 
 
 ---
-GITWorkFlow
+#GITWorkFlow
 
 <img src="GITWorkFlow.PNG"/>
 
