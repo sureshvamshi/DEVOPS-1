@@ -3,4 +3,4 @@ Training
 
 ---
 
-<img src="DistributedGIT.png"/>
+<img src="DistributedGIT.PNG"/>
