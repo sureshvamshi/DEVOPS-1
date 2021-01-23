@@ -7,30 +7,30 @@
 
 
 ---
-**BranchingStrategy**
+## BranchingStrategy
 
 <img src="BranchingStrategy.PNG"/>
 
 
 ---
-#GITWorkFlow
+## GITWorkFlow
 
 <img src="GITWorkFlow.PNG"/>
 
 
 ---
-#GIT Architecture
+## GIT Architecture
 
 <img src="GIT_Architecture.png"/>
 
 ----
 ## Working on GITHUB repository
 
-SSH key create and upload:
+**SSH key create and upload**
 1. create ssh key using gitbash client
 2. upload ssh key to github server
 
-Create a Test Repository, Download to local Repository and Upload to Remote Repository:
+**Create a Test Repository, Download to local Repository and Upload to Remote Repository**
 1. create repository "TEST" in github server
 2. copy ssh url of TEST repository from github server
 3. create a folder (portal) in your laptop home directory(c:/users/username) 
