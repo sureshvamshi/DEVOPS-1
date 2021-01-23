@@ -37,7 +37,7 @@
 4. open git bash client
 5. go to portal path (newly created folder - look at 3rd step)
 6. use git clone command to get remote repository into local repository 
-   ex: git clone git@github.com:chinnu1028/TEST.git
+- ex: git clone git@github.com:chinnu1028/TEST.git
 7. using following url go to github page and download zip file(please see the snapshot below)
 8. extract or unzip the downloaded folder
 9. copy and paste all the files and folders from extracted Folder(maven-project2-master) to portal directory(which is created in 3rd step)
