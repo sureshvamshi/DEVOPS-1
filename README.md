@@ -17,3 +17,9 @@
 
 <img src="GITWorkFlow.PNG"/>
 
+
+---
+#GIT Architecture
+
+<img src="GIT_Architecture.png"/>
+
