@@ -1,7 +1,7 @@
 # GIT
 
 ---
-#DistributedGIT
+** **DistributedGIT
 
 <img src="DistributedGIT.PNG"/>
 
