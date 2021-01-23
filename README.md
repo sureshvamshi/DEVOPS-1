@@ -7,7 +7,7 @@
 
 
 ---
-#BranchingStrategy
+**BranchingStrategy
 
 <img src="BranchingStrategy.PNG"/>
 
