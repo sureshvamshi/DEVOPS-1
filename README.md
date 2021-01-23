@@ -24,7 +24,7 @@
 <img src="GIT_Architecture.png"/>
 
 ----
-#Working on GITHUB repository:
+## Working on GITHUB repository
 
 SSH key create and upload:
 1. create ssh key using gitbash client
