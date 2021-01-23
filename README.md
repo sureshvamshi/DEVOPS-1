@@ -37,16 +37,16 @@
 4. open git bash client
 5. go to portal path (newly created folder - look at 3rd step)
 6. use git clone command to get remote repository into local repository 
-7.    ex: git clone git@github.com:chinnu1028/TEST.git
-8. using following url go to github page and download zip file(please see the snapshot below)
-9. extract or unzip the downloaded folder
-10. copy and paste all the files and folders from extracted Folder(maven-project2-master) to portal directory(which is created in 3rd step)
-11. git status (it shows unstaged changes) 
-12. git add . (this command will add all the files and folders from working directory to staging area)
-13. git status (it shows staged changes)
-14. git commit -m "added files and folders" (it saves all the changes from staging to local repository)
-15. git push ( it upload all added files from local repository to remote repository)
-16. go to github check the TEST repository, now you see the uploaded files and directories.
+   ex: git clone git@github.com:chinnu1028/TEST.git
+7. using following url go to github page and download zip file(please see the snapshot below)
+8. extract or unzip the downloaded folder
+9. copy and paste all the files and folders from extracted Folder(maven-project2-master) to portal directory(which is created in 3rd step)
+10. git status (it shows unstaged changes) 
+11. git add . (this command will add all the files and folders from working directory to staging area)
+12. git status (it shows staged changes)
+13. git commit -m "added files and folders" (it saves all the changes from staging to local repository)
+14. git push ( it upload all added files from local repository to remote repository)
+15. go to github check the TEST repository, now you see the uploaded files and directories.
 
 
 
