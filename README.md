@@ -3,32 +3,31 @@
 **1. Command to save and exit the file in Vi editor**
 - :wq!
 - ZZ
-- **Both 1&2** :green_circle: 
+- **Both 1&2** :heavy_check_mark: 
 - None of the above
 
 **2. In which folder we can find all commands ?**
-- **/bin**
+- **/bin** :heavy_check_mark: 
 - /root
 - /tmp
 - /etc
 
 **3. which Command is used to go inside home directory?**
 - cd /
-- **cd~**
+- **cd~** :heavy_check_mark: 
 - cd ..
 - Cd
 
 **4. Command to rename a file**
 - cat new_name old_name
-- **mv old_name new_name**
+- **mv old_name new_name** :heavy_check_mark: 
 - mv new_name old_name
 
-5 - Question
-Command to list files and folders in non current directory ?
-ls
-ls .
-ls relativePath
-ls DirectoryAbsolutePath
+**5. Command to list files and folders in non current directory ?**
+- ls
+- ls . 
+- ls relativePath
+- **ls DirectoryAbsolutePath** :heavy_check_mark: 
 
 6 - Question
 Command to display all running processes and how much cpu each process use?
