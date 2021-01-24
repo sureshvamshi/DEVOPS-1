@@ -2,7 +2,7 @@
 
 **1. Command to save and exit the file in Vi editor**
 - :white_circle: :wq!
--  :white_circle :ZZ
+-  :white_circle: ZZ
 - :green_circle: **Both 1&2**
 - :white_circle: None of the above
 
