@@ -1,10 +1,10 @@
 # QUIZ
 
 **1. Command to save and exit the file in Vi editor**
-- :white_circle: :wq!
--  :white_circle: ZZ
-- :green_circle: **Both 1&2**
-- :white_circle: None of the above
+- :wq!
+- ZZ
+- **Both 1&2** :green_circle: 
+- None of the above
 
 **2. In which folder we can find all commands ?**
 - **/bin**
