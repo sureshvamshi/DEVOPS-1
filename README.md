@@ -14,7 +14,7 @@
 
 **3. which Command is used to go inside home directory?**
 - cd /
-- **cd ~**
+- **cd~**
 - cd ..
 - Cd
 
