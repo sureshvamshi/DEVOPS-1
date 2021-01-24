@@ -1,11 +1,11 @@
 # QUIZ
 
-1 - Question
-Command to save and exit the file in Vi editor
-:wq!
-ZZ
-Both 1&2
-None of the above
+**1 - Question
+Command to save and exit the file in Vi editor**
+- :wq!
+- ZZ
+- **Both 1&2**
+- None of the above
 
 2 - Question
 In which folder we can find all commands ?
