@@ -7,12 +7,12 @@ Command to save and exit the file in Vi editor**
 - **Both 1&2**
 - None of the above
 
-2 - Question
-In which folder we can find all commands ?
-/bin
-/root
-/tmp
-/etc
+**2 - Question
+In which folder we can find all commands ?**
+- **/bin**
+- /root
+- /tmp
+- /etc
 
 3 - Question
 which Command is used to go inside home directory?
