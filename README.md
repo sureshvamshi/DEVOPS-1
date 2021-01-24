@@ -29,276 +29,234 @@
 - ls relativePath
 - **ls DirectoryAbsolutePath** :heavy_check_mark: 
 
-6 - Question
-Command to display all running processes and how much cpu each process use?
-ps
-ps -ef
-top
-ls ps
+**6. Command to display all running processes and how much cpu each process use?**
+- ps
+- ps -ef
+- top :heavy_check_mark: 
+- ls ps
 
-7 - True or false
-sudo user and root user are same.
-True
-False
+**7. sudo user and root user are same.**
+- True
+- False :heavy_check_mark: 
+ 
+**8. which Command is used to switch to root user?**
+- su -i :heavy_check_mark: 
+- sudo -su username
+- sudo -i
+- su username
+ 
+**9. Command to know the size of Particular Directory?**
+- du
+- du -<dirname?
+- du -sh <directoryname> :heavy_check_mark: 
+- Df
+ 
+**10. Command to get the list of previously used commands ?**
+- hist
+- history :heavy_check_mark: 
+- all prev commands
+- hist -all
+ 
+**11. What command is used to display connection Info and status of ports?**
+- host
+- port
+- netstat :heavy_check_mark: 
+- Ifconfig
+ 
+**12. command is used to go two steps back from the current directory ?**
+- cd ..
+- cd ../../..
+- cd ../.. :heavy_check_mark: 
+- cd ../../../..
+ 
+**13. Command to delete a user?**
+- userdelete <username>
+- userdel <username> :heavy_check_mark: 
+- deluser
+- delete -username
+ 
+**14. which command is used to connect to a Linux server ?**
+- ping IPAdress
+- ssh user@IPAddress :heavy_check_mark: 
+- scp user@IPAddress
+- ssh username
+ 
+**15. Command to show the hidden files in a Directory?**
+- ls -l
+- ls -a :heavy_check_mark: 
+- ls -r
+- ls -lr
+ 
+**16. command to see the content of a file?**
+- ls
+- tar
+- cat :heavy_check_mark: 
+- none of the above
+ 
+**17. How to create tar file?**
+- tar -cvf :heavy_check_mark: 
+- tar -xvf
+- tar -xf
+- tar -z
+ 
+**18. Which command is used to display the operating system name?**
+- os
+- linux
+- kernel 
+- Uname :heavy_check_mark: 
+ 
+**19. Command to see the disk space?**
+- df :heavy_check_mark: 
+- free -m
+- disk
+- none of the above
+ 
+**20. Command to add write permissions to the Group?**
+- chmod g+wx
+- chmod g+rw
+- chmod g+w :heavy_check_mark: 
+- chmod g+r
+ 
+**21. Commands to delete files and folders?**
+- rm -d, rm -r
+- rm, rm -rf :heavy_check_mark: 
+- rm, rm -d
+- rm -f, rm -d
+ 
+**22. Command to check connectivity between two computers?**
+- ifconfig
+- connect
+- dig
+- Ping :heavy_check_mark: 
+  
+**23. Command to create user in Linux?**
+- useradd :heavy_check_mark: 
+- user add
+- user passwd
+- Newuser
+ 
+**24. Command to see the long list of files and folders?**
+- ls
+- ls -a
+- ls -l :heavy_check_mark: 
+- Longlist
+ 
+**25. Command to create a File with Cat?**
+- cat >file1.txt :heavy_check_mark: 
+- cat <file1.txt
+- cat file.txt
+- cat create file1.txt
+ 
+**26. Command to see the status of a service?**
+- service <service name> status
+- systemctl status <service name>
+- service status <service name>
+- both 1 & 2 :heavy_check_mark: 
+ 
+**27. How to change the owner of a file?**
+- chgrp
+- chown :heavy_check_mark: 
+- chnageowner
+- ch own
+ 
+**28. Command to install packages in redhat linux?**
+- yum :heavy_check_mark: 
+- apt -get
+- sudo
+- none of the above
+ 
+**29. Command to restart the system?**
+- init0 
+- init3
+- init6 :heavy_check_mark: 
+- init5
+ 
+**30. How to list the folders and files in a directory?**
+- cd
+- pwd
+- ls :heavy_check_mark: 
+- ls -a
+ 
+**31. Who controls operating system?**
+- kernal :heavy_check_mark: 
+- demon
+- service
+- Shell
+ 
+**32. How to find the usage of RAM?**
+- top
+- free -m :heavy_check_mark: 
+- ps -a
+- Kill
+ 
+**33. Commands to create a directory & File?**
+- mkdir, touch :heavy_check_mark: 
+- touch, tar
+- mkdir, ls
+- vi, touch
+ 
+**34. Which command in command mode of vi saves the file and quit?**
+- :q!
+- :wq! :heavy_check_mark: 
+- :w!
+- :x
+ 
+**35. command can list out all the currently logged in users?**
+- whoami
+- who :heavy_check_mark: 
+- who am i
+- none of the above
+ 
+**36. What is the command to count the number of characters in a file?**
+- count
+- cut
+- grep
+- Wc :heavy_check_mark: 
+ 
+**37. command that gives Execute permissions to Owner?**
+- chmod u+r
+- chmod u+w 
+- chmod u+x :heavy_check_mark: 
+- chmod u+t
+ 
+**38. How to start a service on linux?**
+- systemctl [service_name] start
+- systemctl start [service_name] :heavy_check_mark: 
+- start systemctl [service_name]
+- [service_name] systemctl start
+ 
+**39. Command to extract the tar file?**
+- tar cvf
+- tar czf
+- tar xvf :heavy_check_mark: 
+- tar zvf
+ 
+**40. "mv" command used to ?**
+- move the file from one location to another
+- rename the file
+- both :heavy_check_mark: 
+- none of the above
+ 
+**41. which command is used to know how long your system has been running?**
+- downtime
+- up -time
+- down -time
+- Uptime :heavy_check_mark: 
+ 
+**42. Command to know the private ip address**
+- ifconfig :heavy_check_mark: 
+- ipconfig
+- ipaddress
+- curl ifconfig.io
+ 
+** 43. Command to assign a password for the user?**
+- password
+- passw
+- pwd
+- Passwd :heavy_check_mark: 
 
-8 - Question
-which Command is used to switch to root user?
-su -i
-sudo -su username
-sudo -i
-su username
-
-9 - Question
-Command to know the size of Particular Directory?
-du
-du -<dirname?
-du -sh <directoryname>
-Df
-
-10 - Question
-Command to get the list of previously used commands ?
-hist
-history
-all prev commands
-hist -all
-
-11 - Question
-What command is used to display connection Info and status of ports?
-host
-port
-netstat
-Ifconfig
-
-12 - Question
-command is used to go two steps back from the current directory ?
-cd ..
-cd ../../..
-cd ../..
-cd ../../../..
-
-13 - Question
-Command to delete a user?
-userdelete <username>
-userdel <username>
-deluser
-delete -username
-
-14 - Question
-which command is used to connect to a Linux server ?
-ping IPAdress
-ssh user@IPAddress
-scp user@IPAddress
-ssh username
-
-15 - Question
-Command to show the hidden files in a Directory?
-ls -l
-ls -a
-ls -r
-ls -lr
-
-16 - Question
-command to see the content of a file?
-ls
-tar
-cat
-none of the above
-
-17 - Question
-How to create tar file?
-tar -cvf
-tar -xvf
-tar -xf
-tar -z
-
-18 - Question
-Which command is used to display the operating system name?
-os
-linux
-kernel
-Uname
-
-19 - Question
-Command to see the disk space?
-df
-free -m
-disk
-none of the above
-
-20 - Question
-Command to add write permissions to the Group?
-chmod g+wx
-chmod g+rw
-chmod g+w
-chmod g+r
-
-21 - Question
-Commands to delete files and folders?
-rm -d, rm -r
-rm, rm -rf
-rm, rm -d
-rm -f, rm -d
-
-22 - Question
-Command to check connectivity between two computers?
-ifconfig
-connect
-dig
-Ping
-
-23 - Question
-Command to create user in Linux?
-useradd
-user add
-user passwd
-Newuser
-
-24 - Question
-Command to see the long list of files and folders?
-ls
-ls -a
-ls -l
-Longlist
-
-25 - Question
-Command to create a File with Cat?
-cat >file1.txt
-cat <file1.txt
-cat file.txt
-cat create file1.txt
-
-26 - Question
-Command to see the status of a service?
-service <service name> status
-systemctl status <service name>
-service status <service name>
-both 1 & 2
-
-27 - Question
-How to change the owner of a file?
-chgrp
-chown
-chnageowner
-ch own
-
-28 - Question
-Command to install packages in redhat linux?
-yum
-apt -get
-sudo
-none of the above
-
-29 - Question
-Command to restart the system?
-init0
-init3
-init6
-init5
-
-30 - Question
-How to list the folders and files in a directory?
-cd
-pwd
-ls
-ls -a
-
-31 - Question
-Who controls operating system?
-kernal
-demon
-service
-Shell
-
-32 - Question
-How to find the usage of RAM?
-top
-free -m
-ps -a
-Kill
-
-33 - Question
-Commands to create a directory & File?
-mkdir, touch
-touch, tar
-mkdir, ls
-vi, touch
-
-34 - Question
-Which command in command mode of vi saves the file and quit?
-:q!
-:wq!
-:w!
-:x
-
-35 - Question
-command can list out all the currently logged in users?
-whoami
-who
-who am i
-none of the above
-
-36 - Question
-What is the command to count the number of characters in a file?
-count
-cut
-grep
-Wc
-
-37 - Question
-command that gives Execute permissions to Owner?
-chmod u+r
-chmod u+w
-chmod u+x
-chmod u+t
-
-38 - Question
-How to start a service on linux?
-systemctl [service_name] start
-systemctl start [service_name]
-start systemctl [service_name]
-[service_name] systemctl start
-
-39 - Question
-Command to extract the tar file?
-tar cvf
-tar czf
-tar xvf
-tar zvf
-
-40 - Question
-"mv" command used to ?
-move the file from one location to another
-rename the file
-both
-none of the above
-
-41 - Question
-which command is used to know how long your system has been running?
-downtime
-up -time
-down -time
-Uptime
-
-42 - Question
-Command to know the private ip address
-ifconfig
-ipconfig
-ipaddress
-curl ifconfig.io
-
-43 - Question
-Command to assign a password for the user?
-password
-passw
-pwd
-Passwd
-
-44 - Question
-Command to see the complete Kernel information?
-uname -r
-krnl
-uname -a
-kernel -info
-
-
-
+**44. Command to see the complete Kernel information?
+- uname -r
+- krnl
+- uname -a :heavy_check_mark: 
+- kernel -info
