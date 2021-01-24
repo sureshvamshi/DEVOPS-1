@@ -249,13 +249,13 @@
 - ipaddress
 - curl ifconfig.io
  
-** 43. Command to assign a password for the user?**
+**43. Command to assign a password for the user?**
 - password
 - passw
 - pwd
 - Passwd :heavy_check_mark: 
 
-**44. Command to see the complete Kernel information?
+**44. Command to see the complete Kernel information?**
 - uname -r
 - krnl
 - uname -a :heavy_check_mark: 
