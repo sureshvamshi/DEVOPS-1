@@ -1,32 +1,27 @@
 # QUIZ
 
-**1 - Question
-Command to save and exit the file in Vi editor**
+**1. Command to save and exit the file in Vi editor**
 - :wq!
 - ZZ
 - **Both 1&2**
 - None of the above
 
-**2 - Question
-In which folder we can find all commands ?**
+**2. In which folder we can find all commands ?**
 - **/bin**
 - /root
 - /tmp
 - /etc
 
-3 - Question
-which Command is used to go inside home directory?
-cd /
-cd ~
-cd ..
-Cd
+**3. which Command is used to go inside home directory?**
+- cd /
+- **cd ~**
+- cd ..
+- Cd
 
-4 - Question
-Command to rename a file
-cat new_name old_name
-mv old_name new_name
-mv new_name old_name
-cat old_name new_name
+**4. Command to rename a file**
+- cat new_name old_name
+- **mv old_name new_name**
+- mv new_name old_name
 
 5 - Question
 Command to list files and folders in non current directory ?
