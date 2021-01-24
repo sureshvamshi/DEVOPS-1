@@ -49,12 +49,12 @@
 15. go to github check the TEST repository, now you see the uploaded files and directories.
 
 **GIT Administrator Tasks/Activities**
-1. setting up Git server
-2. creating Repositories
+1. setting up Git server (creating Linux Machine and install GIT software on it)
+2. creating Repositories(Remote Repository & Local Repository)
 3. Access permissions to all Developers and Testers
-4. Maintaining Repositories
-5. Creating Branches
+4. Maintaining Repositories (Remote Repositories)
+5. Creating Branches (Master, Release, Sprint and Feature Branches)
 6. Resolving Merge Conflicts(if any)
-7. Accepting Merge Requests or Pull Requests
-8. GIT Administration
+7. Accepting Merge Requests or Pull Requests(which are created or raised by Developers)
+8. Creating Tags
 
