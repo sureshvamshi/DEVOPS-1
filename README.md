@@ -268,7 +268,7 @@ Which Network covers small area such as a small office or home?**
 
  - WAN
 
- - LAN :
+ - LAN :heavy_check_mark: 
 
  - WWW
 
@@ -278,7 +278,7 @@ Which Network covers small area such as a small office or home?**
 **2.
 Which is Temporary Storage?**
 
- - RAM:
+ - RAM :heavy_check_mark: 
 
  - ROM
 
@@ -290,7 +290,7 @@ Which is Temporary Storage?**
 **3.
 1 giga byte is equal to?**
 
- - 1024 mb:
+ - 1024 mb :heavy_check_mark: 
 
  - 1024 kb
 
@@ -306,7 +306,7 @@ how to find public IP address in windows machine ?**
 
  - ipconfig
 
- - my ip:
+ - my ip :heavy_check_mark: 
 
  - ifconfig
 
@@ -316,7 +316,7 @@ which hardware component will provide network connection to a computer ?**
 
  - Graphic Card
 
- - NIC Card:
+ - NIC Card :heavy_check_mark: 
 
  - Socket
 
@@ -332,7 +332,7 @@ who will convert Source Code (human readable code) into binary code ?**
 
  - Interpreter
 
- - Both 2 & 3:
+ - Both 2 & 3 :heavy_check_mark: 
 
 
 **7.
@@ -342,7 +342,7 @@ what is object ?**
 
  - memory card
 
- - memory space:
+ - memory space :heavy_check_mark: 
 
  - CPU
 
@@ -352,7 +352,7 @@ Git Bash client is which type of Software ?**
 
  - System Software
 
- - Application Software:
+ - Application Software :heavy_check_mark: 
 
  - Operating System
 
@@ -366,7 +366,7 @@ which component in computer will process all tasks or programs ?**
 
  - Firmware
 
- - CPU:
+ - CPU :heavy_check_mark: 
 
  - ROM
 
@@ -378,7 +378,7 @@ which memory will help CPU to speed up the processes ?***
 
  - RAM
 
- - Cache Memory:
+ - Cache Memory :heavy_check_mark: 
 
  - Hard Disk
 
@@ -392,7 +392,7 @@ what is DATA ?**
 
  - symbols like $,#,@..etc
 
- - All of the Above:
+ - All of the Above :heavy_check_mark: 
 
 
 **12.
@@ -404,7 +404,7 @@ who triggers the operating system when we switch on the power button ?**
 
  - CPU
 
- - BIOS (Firmware):
+ - BIOS (Firmware) :heavy_check_mark: 
 
 
 **13.
@@ -412,7 +412,7 @@ What is the important component in Operating System and also which will execute 
 
  - Shell
 
- - Kernal:
+ - Kernal :heavy_check_mark: 
 
  - RAM
 
@@ -422,7 +422,7 @@ What is the important component in Operating System and also which will execute 
 **14.
 Cables and Hubs will fall under which layer of OSI Model ?**
 
- - Physical Layer:
+ - Physical Layer :heavy_check_mark: 
 
  - Application Layer
 
@@ -438,6 +438,6 @@ which language will be used by computers to communicate each other over the comp
 
  - Machine Language
 
- - Protocols:
+ - Protocols :heavy_check_mark: 
 
  - Human Readable Language
