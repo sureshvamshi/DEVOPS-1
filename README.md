@@ -1,5 +1,7 @@
 # QUIZ
 
+# Linux
+
 **1. Command to save and exit the file in Vi editor**
 - :wq!
 - ZZ
