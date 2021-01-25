@@ -261,13 +261,14 @@
 - uname -a :heavy_check_mark: 
 - kernel -info
 
-**Computer Fundamentals**
+# Computer Fundamentals
+
 **1.
 Which Network covers small area such as a small office or home?**
 
  - WAN
 
- - LAN:
+ - LAN :
 
  - WWW
 
