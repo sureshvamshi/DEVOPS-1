@@ -260,3 +260,183 @@
 - krnl
 - uname -a :heavy_check_mark: 
 - kernel -info
+
+**Computer Fundamentals**
+**1.
+Which Network covers small area such as a small office or home?**
+
+ - WAN
+
+ - LAN:
+
+ - WWW
+
+ - WLAN
+
+
+**2.
+Which is Temporary Storage?**
+
+ - RAM:
+
+ - ROM
+
+ - Hard disk
+
+ - NIC
+
+
+**3.
+1 giga byte is equal to?**
+
+ - 1024 mb:
+
+ - 1024 kb
+
+ - 1024 bytes
+
+ - 1024 gb
+
+
+**4.
+how to find public IP address in windows machine ?**
+
+ - IP Address
+
+ - ipconfig
+
+ - my ip:
+
+ - ifconfig
+
+
+**5.
+which hardware component will provide network connection to a computer ?**
+
+ - Graphic Card
+
+ - NIC Card:
+
+ - Socket
+
+ - Port
+
+
+**6.
+who will convert Source Code (human readable code) into binary code ?**
+
+ - Kernal
+
+ - Compiler
+
+ - Interpreter
+
+ - Both 2 & 3:
+
+
+**7.
+what is object ?**
+
+ - Source code
+
+ - memory card
+
+ - memory space:
+
+ - CPU
+
+
+**8.
+Git Bash client is which type of Software ?**
+
+ - System Software
+
+ - Application Software:
+
+ - Operating System
+
+ - Firmware
+
+
+**9.
+which component in computer will process all tasks or programs ?**
+
+ - RAM
+
+ - Firmware
+
+ - CPU:
+
+ - ROM
+
+
+**10.
+which memory will help CPU to speed up the processes ?***
+
+ - ROM
+
+ - RAM
+
+ - Cache Memory:
+
+ - Hard Disk
+
+
+**11.
+what is DATA ?**
+
+ - letters like a...z, A..Z
+
+ - numbers like 1..9
+
+ - symbols like $,#,@..etc
+
+ - All of the Above:
+
+
+**12.
+who triggers the operating system when we switch on the power button ?**
+
+ - 	RAM
+
+ - HARD DISK
+
+ - CPU
+
+ - BIOS (Firmware):
+
+
+**13.
+What is the important component in Operating System and also which will execute the instructions on hardware ?**
+
+ - Shell
+
+ - Kernal:
+
+ - RAM
+
+ - Interpreter
+
+
+**14.
+Cables and Hubs will fall under which layer of OSI Model ?**
+
+ - Physical Layer:
+
+ - Application Layer
+
+ - Transport Layer
+
+ - Data Link Layer
+
+
+**15.
+which language will be used by computers to communicate each other over the computer network ?**
+
+ - Programming Language
+
+ - Machine Language
+
+ - Protocols:
+
+ - Human Readable Language
