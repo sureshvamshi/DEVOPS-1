@@ -445,3 +445,196 @@ which language will be used by computers to communicate each other over the comp
  - Protocols :heavy_check_mark: 
 
  - Human Readable Language
+
+
+
+
+---
+# Git Commands
+
+
+ **1Q. Which is CLI client?**
+
+ - Github
+
+ - Git bash :heavy_check_mark:
+
+ - Tortoise git
+
+ - Svn
+
+
+ **2Q. Git Architecture includes?**
+
+ - local repository, staging area, working directory
+
+ - Staging area, local repository, Remote Repository
+
+ - Remote Repository, local repository, working directory, Staging area :heavy_check_mark:
+
+ - Local Repository, staging area, working directory, Git Bash
+
+
+ **3Q. Command to get copy of remote repository into local first time ?**
+
+ - git pull
+
+ - git clone :heavy_check_mark:
+
+ - git checkout
+
+ - git remote
+ 
+
+ **4Q. Which is Distributed version control system?**
+
+ - cvs
+
+ - perforce
+
+ - svn
+
+ - Git :heavy_check_mark:
+
+
+ **5Q. Command to add the changes to Local Repository from staging area?**
+
+ - git commit -m :heavy_check_mark:
+
+ - git checkout
+
+ - git add
+
+ - git push
+ 
+
+ **6Q. Command to add particular file changes to staging area from working directory?**
+
+ - git pull
+
+ - git add .
+
+ - git add filename :heavy_check_mark:
+
+ - git commit -m
+ 
+
+ **7Q. git checkout command used for?**
+
+ - to create new branch
+
+ - to switch between branches
+
+ - to clone the repository
+
+ - both 1&2 :heavy_check_mark:
+
+
+ **8Q. Command to upload the changes to remote repository from local repository?**
+
+ - git push :heavy_check_mark:
+
+ - git remote
+
+ - git upstream
+
+ - git checkout
+ 
+
+ **9Q. Command to check the created, modified, deleted files in gitbash before Commit?**
+
+ - git show
+
+ - git log
+
+ - git status :heavy_check_mark:
+
+ - all of the above
+
+
+ **10Q. Command which will bring all latest changes from remote to local?**
+
+ - git clone
+
+ - git pull :heavy_check_mark:
+
+ - git merge
+
+ - all the above
+ 
+
+ **11Q. Command to show the commit history of a repository?**
+
+ - git log :heavy_check_mark:
+
+ - git status
+
+ - git commit
+
+ - git show
+ 
+
+ **12Q. what will happen when we use git checkout command ?**
+
+ - HEAD switches to another branch
+
+ - HEAD will be in the same branch
+
+ - HEAD switches to another branch and also complete working directory is replaced :heavy_check_mark:
+
+ - only working Directory is changed
+ 
+
+ **13Q. git reset --hard used to?**
+
+ - uncommitted the changes, unstage the changes
+
+ - uncommitted the changes
+
+ - uncommitted the changes, unstage the changes, delete the changes :heavy_check_mark:
+
+ - Unstage the changes
+
+
+ **14Q. which command is used to capture a point in history that is used for a marked version release ?**
+
+ - git rebase
+
+ - git init
+
+ - git tag :heavy_check_mark:
+
+ - git config
+ 
+
+ **15Q. which command is used to merge two branches ?**
+
+ - git rebase
+
+ - git merge
+
+ - git pull
+
+ - All of the above :heavy_check_mark:
+ 
+
+ **16Q. Command to roll back a particular commit changes ?**
+
+ - git branch
+
+ - git change
+
+ - git revert :heavy_check_mark:
+
+ - Both 1&2
+ 
+
+ **17Q. Command which shows Content changes of the specific commit?**
+
+ - git status
+
+ - git show commitID :heavy_check_mark:
+
+ - git log
+
+ - all of the above
