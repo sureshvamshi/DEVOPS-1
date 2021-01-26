@@ -263,6 +263,8 @@
 - uname -a :heavy_check_mark: 
 - kernel -info
 
+---
+
 # Computer Fundamentals
 
 **1.
