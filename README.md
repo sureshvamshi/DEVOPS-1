@@ -48,6 +48,7 @@
 14. git push ( it upload all added files from local repository to remote repository)
 15. go to github check the TEST repository, now you see the uploaded files and directories.
 
+---
 **GIT Administrator Tasks/Activities**
 1. setting up Git server (creating Linux Machine and install GIT software on it)
 2. creating Repositories(Remote Repository & Local Repository)
@@ -57,4 +58,9 @@
 6. Resolving Merge Conflicts(if any)
 7. Accepting Merge Requests or Pull Requests(which are created or raised by Developers)
 8. Creating Tags
+
+---
+## GIT cherry-pick
+
+<img src="cherrypick.PNG"/>
 
