@@ -95,9 +95,9 @@ Locally:
 ```
 ## Case1
 
-<img src="Case1.png"
+<img src="Case1.png"/>
 
 ```
 ## Case2
 
-<img src="Case2.png"
+<img src="Case2.png"/>
