@@ -64,3 +64,30 @@
 
 <img src="cherrypick.PNG"/>
 
+**cherry-pick**
+pick one or more commits from one branch to another branch
+Ex: git cherry-pick commitID
+
+**Note:** git commit is not required for cherry-pick i.e automatically commited to required branch.
+
+---
+## Merge
+merge one branch into another branch
+
+## Merge conflicts - 3 cases
+1. merging remote branch into local branch - git pull ( remote branch to local branch)
+2. merging one branch into another branch ( remote repository branches)
+3. merging one branch into another branch (git rebase - remote repository branches)
+
+## Resolving merge conflicts
+2 ways 
+- using webclient 
+- locally using tortoise git client
+
+Locally:
+1. git checkout Jaggu-Feature1
+2. git pull
+3. git checkout Feature1
+4. git pull
+5. git merge --no-ff "Jaggu-Feature1"
+6. git push
