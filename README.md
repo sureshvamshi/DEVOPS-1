@@ -92,12 +92,10 @@ Locally:
 5. git merge --no-ff "Jaggu-Feature1"
 6. git push
 
-```
 ## Case1
 
 <img src="Case1.png"/>
 
-```
 ## Case2
 
 <img src="Case2.png"/>
