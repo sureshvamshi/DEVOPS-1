@@ -83,7 +83,7 @@ merge one branch into another branch
 2 ways 
 - using webclient 
 - locally using tortoise git client
-
+```
 Locally:
 1. git checkout Jaggu-Feature1
 2. git pull
@@ -91,6 +91,7 @@ Locally:
 4. git pull
 5. git merge --no-ff "Jaggu-Feature1"
 6. git push
+```
 
 ## Case1
 
