@@ -7,7 +7,7 @@
 
 **Note:** 
 - pre-request is jdk(java develoment kit) to be installed before Jenkins.
-- Javac compiler(javac) should be worked fine.
+- Java compiler(javac) should be worked fine.
 
 ---
 ## Jenkins Installation(Using Package Manager - YUM):
