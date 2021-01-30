@@ -5,6 +5,8 @@
  1. Install through internet.
  2. Install using Package Manager(YUM)
 
+**Note:** pre-request is jdk(java develoment kit) to be installed before Jenkins.
+
 ---
 ## Jenkins Installation(Using Package Manager - YUM):
  1. connect to Linux machine using putty/mobaxterm. 
@@ -21,6 +23,6 @@
  11. provide username as jenkins and other relavent details.
  12. Finally, you will see Jenkins Home Page.
 
-
+**Note:** Java installation is not required for Package Manager Installations.
 
 
