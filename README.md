@@ -27,4 +27,14 @@
 
 **Note:** Java installation is not required for Package Manager Installations.
 
+---
+## Types of Applications
 
+<img src="TypesOfApplications.png"/>
+
+---
+## Web Servers
+
+<img src="webservers.png"/>
+
+---
