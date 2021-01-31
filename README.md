@@ -263,6 +263,282 @@
 - uname -a :heavy_check_mark: 
 - kernel -info
 
+**45Q. Command to login to Sudo user?**
+
+ - su -i
+
+ - Sudo -i
+
+ - su username
+
+ - Sudo -su username :heavy_check_mark: 
+
+  **46Q. Command to display all running processes and how much cpu each process use?**
+
+ - ps
+
+ - ps -ef
+
+ - top :heavy_check_mark: 
+
+ - ls ps
+  
+**47Q. Command to know the size of current Directory?**
+
+ - du -sh :heavy_check_mark: 
+
+ - du
+
+ - du directory name
+
+ - df -u
+  
+**48Q. What command is used to display connection Info and status of ports?**
+
+ - ifconfig
+
+ - port
+
+ - ipconfig
+
+ - netstat :heavy_check_mark: 
+
+  **49Q. command is used to go three steps back from the current directory ?**
+
+ - cd ..
+
+ - cd ../.. /.. :heavy_check_mark: 
+
+ - cd ../..
+
+ - cd ../
+
+**50Q. Cat Command used to?**
+
+ - to create a file
+
+ - to add content in the file
+
+ - to see the content of a file
+
+ - both 1&3
+
+ - All 1&2&3 :heavy_check_mark: 
+
+**51Q. Commands to create a tar file and extract the tar file?**
+
+ - tar- xf, tar -cvf
+
+ - tar -cvf, tar -xvf :heavy_check_mark: 
+
+ - tar -cvf, tar -z
+
+ - tar -xvf, tar -z
+
+**52Q. Command to give all permissions to user and group?**
+
+ - chmod ug+rwx :heavy_check_mark: 
+
+ - chmod uo+rwx
+
+ - chmod go+rwx
+
+ - chmod ug+rw
+
+**53Q. Which are default permissions when we create a file?**
+
+ - -rwxrw-rw-
+
+ - -rwxr--r--
+
+ - -rw-r--r-- :heavy_check_mark: 
+
+ - -rwxrw-r--
+
+**54Q. Write the command to add user and delete user?**
+
+ - useradd,userdel
+
+**55Q. write the commands to create a file, to create a directory, to delete a directory?**
+
+ - touch,mkdir,rm -rf
+ **alternatives**
+ - vi,mkdir,rm -rf
+ - cat,mkdir,rm -rf
+ 
+**56Q. Command to list files and folders in non current directory?**
+
+ - ls DirectoryAbsolutePath :heavy_check_mark: 
+
+ - ls relativePath
+
+ - ls
+
+ - ls .
+
+**57Q. Syntax of ping command?**
+
+ - ping hostname
+
+ - ping ip address
+
+ - ping
+
+ - all the above
+
+ - both 1 & 2 :heavy_check_mark: 
+ 
+**58Q. write any 3 networking commands?**
+ - ifconfig,hostname,netstat,nslookup,gid 
+
+**59Q. command to login into a remote Linux machine using SSH?**
+
+ - SSH username@ip-address
+
+ - SSH username
+
+ - SSH hostname
+
+ - all of the above
+
+ - both 1&3 :heavy_check_mark: 
+
+**60Q. command to delete a line in VI editor ?**
+
+ - cc
+
+ - dd :heavy_check_mark: 
+
+ - dw
+
+ - D
+
+**61Q. command to Lists files in sub-directories as well?**
+
+ - ls
+
+ - ls -r
+
+ - ls-R :heavy_check_mark: 
+
+ - ls -a
+
+**62Q. Command to kill the particular process?**
+
+ - kill PID
+
+ - pkill process name
+
+ - kill
+
+ - both 1&2 :heavy_check_mark: 
+
+ - both 1&3
+
+**63Q. Which command is used to provide read and execute access for everyone and also write access for the owner of the file?**
+
+ - chmod 777 [file_name]
+
+ - chmod 766 [file_name]
+
+ - chmod 755 [file_name] :heavy_check_mark: 
+
+ - chmod 555 [file_name]
+
+**64Q. Command to print first 5 lines in a file?**
+
+ - head -n file.txt
+
+ - head -n 5 file.txt :heavy_check_mark: 
+
+ - head
+
+ - tail -n 5 file.txt
+
+**65Q. Command to Display all recently modified or recently used files?**
+
+ - ls -lt :heavy_check_mark: 
+
+ - ls -R
+
+ - ls -a
+
+ - ls -n
+
+**66Q. Command to see the system memory usage?**
+
+ - free -m
+
+ - free -h
+
+ - free -g
+
+ - all of the above :heavy_check_mark: 
+
+**67Q. How to get the usage details and syntax for a particular command?**
+
+ - help system
+
+ - help
+
+ - command --help :heavy_check_mark: 
+
+ - all of the above
+
+**68Q. Write a command that will display all .txt files, including its permission?**
+
+ - ls *.txt
+
+ - ls -al
+
+ - ls -l *.txt :heavy_check_mark: 
+
+ - ls -r *.txt
+
+**69Q. Which is Important component in OS and also which will execute binary code on hardware?**
+
+ - GUI
+
+ - Bash
+
+ - cpu
+
+ - Kernel :heavy_check_mark: 
+
+**70Q. Command to see kernel version information?**
+
+ - kernel
+
+ - kernel -version
+
+ - uname -a :heavy_check_mark: 
+
+ - all of the above
+
+**71Q. Command to start httpd (service) using systemctl?**
+
+ - systemctl start httpd
+ 
+**72Q. Can we terminate running process in LINUX?**
+
+ - Yes :heavy_check_mark: 
+
+ - No
+ 
+**73Q. What is SSH port number?**
+
+ - 22
+ 
+**74Q. Command used to find details related to a Domain name server(DNS)?**
+
+ - netstat
+
+ - Nslookup :heavy_check_mark: 
+
+ - DNS
+
+ - hostname
+
 ---
 
 # Computer Fundamentals
