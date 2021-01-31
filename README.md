@@ -721,6 +721,96 @@ which language will be used by computers to communicate each other over the comp
  - Protocols :heavy_check_mark: 
 
  - Human Readable Language
+ 
+ **16Q. What are peripheral devices?**
+
+ - Input devices
+
+ - output devices
+
+ - hardware
+
+ - all of the above
+
+ - both 1&2 :heavy_check_mark:
+  
+**17Q. 1 gb equal to how many mb?**
+
+ - 1024mb
+
+**18Q. which translator will convert human readable code into machine code?**
+
+ - Interpreter
+
+ - compiler
+
+ - both 1&2 :heavy_check_mark:
+
+ - none of the above
+
+**19Q. which hardware component will provide network connectivity to a computer ?**
+
+ - NICcard
+ 
+**20Q. which is a fastest memory ?**
+
+ - cache memory
+
+**20Q. what are the input devices in a computer?**
+
+ - Mouse
+
+ - printer
+
+ - keyboard
+
+ - 1&2
+
+ - 1&3 :heavy_check_mark:
+
+**21Q. write any 3 computer network types ?**
+
+ - WAN,LAN,MAN,WLAN,CAN
+
+**22Q. which network that extends over a large geographical area such as states or countries?**
+
+ - LAN
+
+ - MAN
+
+ - WAN :heavy_check_mark:
+
+ - CAN
+
+**23Q. which is not a protocol?**
+
+ - ssh
+
+ - http
+
+ - ftp
+
+ - fts :heavy_check_mark:
+
+**24Q. How a web client will find the required computer in Internet?**
+
+ - TCP
+
+ - Public IP :heavy_check_mark:
+
+ - Private IP
+
+ - protocol
+
+**25Q. How many ports are there in a computer?**
+
+ - 33340
+
+ - 11535
+
+ - 55000
+
+ - 65535 :heavy_check_mark:
 
 
 
@@ -914,3 +1004,137 @@ which language will be used by computers to communicate each other over the comp
  - git log
 
  - all of the above
+ 
+ **18Q. write the command to add all changes to staging area?**
+
+git add ., git add -A
+  
+**19Q. write a command to create branch (feature1)?**
+
+ - git checkout -b feature1, git branch feature1
+
+**20Q. Command to upload the changes to remote repository from local repository?**
+
+ - git push
+ 
+**21Q. git reset --mixed command used to?**
+
+ - uncommitted the changes, unstage the changes :heavy_check_mark:
+
+ - Unstage the changes
+
+ - uncommitted the changes
+
+ - uncommitted the changes, unstage the changes, delete the changes
+
+ 
+**22Q. git pull command includes?**
+
+ - git merge
+
+ - git fetch
+
+ - git clone
+
+ - all of the above
+
+ - both 1&2 :heavy_check_mark:
+
+
+**23Q. Which is untracked area of git?**
+
+ - staging area
+
+ - working directory :heavy_check_mark:
+
+ - local repository
+
+ - all of the above
+
+
+**24Q. command to List which files are staged, unstaged, and untracked?**
+
+ - git status
+
+**25Q. If we want a particular commit from one branch to another branch which command is used?**
+
+ - git cherry-pick commitid
+
+
+**26Q. Which command is used to undo the committed changes ?**
+
+ - git reset,git revert
+
+**27Q. is git commit required after cherry-pick ?**
+
+ - yes
+
+ - no :heavy_check_mark:
+
+
+**28Q. Which command is used to see list of last 5 commits in commit history?**
+
+ - git log
+
+ - git show -5
+
+ - git log -n 5 :heavy_check_mark:
+
+ - all of the above
+
+
+**29Q. command can help you to store your uncommitted local changes - and leave you with a clean working copy ?**
+
+ - git squash
+
+ - git stash :heavy_check_mark:
+
+ - git save
+
+ - git tag
+
+ 
+**30Q. Which client is used to resolve the merge conflicts locally?**
+
+ - Tortoise git
+
+ - git bash
+
+ - git server
+
+ - both1 & 2 :heavy_check_mark:
+
+ 
+**31Q. What is the default branch in a git repository?**
+
+ - master branch,main branch
+
+
+**32Q. In gitlab, a new branch can be cretaed from?**
+
+ - Branch
+
+ - Tag
+
+ - Commit ID
+
+ - all of the above :heavy_check_mark:
+
+ - both 1&2
+
+**33Q. To use git merge command in which branch we should be in?**
+
+ - Target branch :heavy_check_mark:
+
+ - source branch
+
+ - master branch
+
+ - all of the above
+
+
+**34Q. It is not possible to change a repository visibility from public to private**
+
+ - True
+
+ - False :heavy_check_mark:
