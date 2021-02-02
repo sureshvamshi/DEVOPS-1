@@ -38,8 +38,13 @@
 <img src="webservers.png"/>
 
 ---
-## Application Installation
+## Application Installation Types
 
 <img src="ApplicationSoftwareInstallation.PNG"/>
+
+---
+## Linux Standard Streams
+
+<img src="Linux_StandardStreams.PNG"/>
 
 ---
