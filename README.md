@@ -1,5 +1,4 @@
-# DEVOPS
-## MAVEN
+# MAVEN
 
 ---
 ## Maven Build Process
