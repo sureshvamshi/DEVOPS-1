@@ -1,2 +1,9 @@
 # DEVOPS
-Training
+## MAVEN
+
+---
+## Maven Build Process
+
+<img src="mavenbuildprocess.PNG"/>
+
+---
