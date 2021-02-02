@@ -58,3 +58,6 @@
 <img src="webapplicationsdeployment.PNG"/>
 
 ---
+## Java Web Application Build and Deploy Process
+
+<img src="JavaWebApplicationBuildDeployProcess.PNG"/>
