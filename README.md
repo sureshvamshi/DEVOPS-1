@@ -16,3 +16,8 @@
 <img src="ANT_BuildFile.PNG"/>
 
 ---
+## POM File Details
+
+<img src="POM_FileDetails.PNG"/>
+
+---
