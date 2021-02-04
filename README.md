@@ -11,9 +11,9 @@
 
 **Commands**
   
-  - **Sudo -i**                           ---> to log in to root user
-  - **Sudo -su username**                 ---> to log in to sudo user
-  - **Su username**                       ---> to switch between the users (non sudo users) (root or sudo user can use this command)
+  - Sudo -i                           ---> to log in to root user
+  - Sudo -su username                 ---> to log in to sudo user
+  - Su username                       ---> to switch between the users (non sudo users) (root or sudo user can use this command)
  
 **Note:**
   
@@ -41,7 +41,7 @@
 # add existing user to existing group --> usermod -aG wheel username
 ```
 ```
-# check a user uid, gid and groups list
+# command to check a user uid, gid and groups list
   id username
 ```
 ---
