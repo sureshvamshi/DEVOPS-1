@@ -31,29 +31,22 @@
 ```
 ** Install JAVA **
 # install java if it is already not installed on linux
-
   yum install java-1.8.0-openjdk
   
 # check java version
-  
   java -version
 
 ** Install Maven **
-
 # Install using yum package manager
-  
   sudo yum install maven
 
 # Download Apache maven from internet
-  
   sudo wget https://downloads.apache.org/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.tar.gz
   
 # Extract tar file
-
   sudo tar -xzvf /opt/apache-maven-3.6.3-bin.tar.gz
   
 # Create a symbolic link to maven
-  
   sudo ln -s /opt/apache-maven-3.6.3 /opt/maven
   
 **Setup environment variables**
@@ -66,7 +59,6 @@
     export PATH=${M2_HOME}/bin:${PATH}
   
 # Load new environment variables
-  
   source /etc/profile.d/maven.sh
   
 **Verify Maven installation successfull or not**  
