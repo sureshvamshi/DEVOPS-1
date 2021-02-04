@@ -218,3 +218,8 @@ Note: Tomcat uses port 8080 and 8443 for HTTP and HTTPS requests respectively.
 Note: 1. maven should be installed using internet source and add to Jenkins --> manage jenkins --> Global Tools Configuration as maven1.
       2. Note: Access the deployed application using the url http://IP:8080/portal
 ```
+---
+## Ways Of Deployment
+<img src="WaysOfDeployment.PNG"/>
+
+---
