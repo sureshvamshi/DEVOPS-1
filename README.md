@@ -64,6 +64,29 @@ sudo systemctl status nginx
 ```
 
 ---
+## Create httpd application deployment Job in Jenkins
+```
+**SCM:**
+url: https://gitlab.com/chinnu1028/beginner-html-site-styled.git
+branch: gh-pages
+
+**ExecuteShell**
+sudo chmod 777 /var/www/html/
+sudo cp -Rf . /var/www/html/
+sudo systemctl restart httpd
+```
+---
+## Create nginx application deployment job in Jenkins
+```
+**SCM:**
+url: https://github.com/chinnu1028/project-html-website.git
+branch: master
+
+**ExecuteShell**
+cp -Rf . /usr/share/nginx/html/
+sudo systemctl restart nginx
+```
+---
 ## Linux Standard Streams
 
 <img src="Linux_StandardStreams.PNG"/>
