@@ -27,7 +27,6 @@
  11. provide username as jenkins and other relavent details.
  12. Finally, you will see Jenkins Home Page.
 
-**Note:** Java installation is not required for Package Manager Installations.
 ```
 ---
 ## Types of Applications
