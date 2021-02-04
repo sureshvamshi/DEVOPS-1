@@ -71,7 +71,7 @@ Note: Instead of yum repository we need to use amazon-linux-extras package manag
 ```
 
 ---
-## Create httpd application deployment Job in Jenkins
+## Create html web application deployment Job in Jenkins for Apache httpd
 ```
 **SCM:**
 url: https://gitlab.com/chinnu1028/beginner-html-site-styled.git
@@ -83,7 +83,7 @@ sudo cp -Rf . /var/www/html/
 sudo systemctl restart httpd
 ```
 ---
-## Create nginx application deployment job in Jenkins
+## Create html web application deployment job in Jenkins for nginx
 ```
 **SCM:**
 url: https://github.com/chinnu1028/project-html-website.git
@@ -186,3 +186,32 @@ Note: Tomcat uses port 8080 and 8443 for HTTP and HTTPS requests respectively.
    
  ```
  ---
+## Create web application (no compile) deployment Job in Jenkins for tomcat
+```
+**SCM:**
+  url: https://gitlab.com/chinnu1028/javawebapp.git
+  branch: master
+
+**ExecuteShell**
+  mkdir /usr/local/tomcat/webapps/javaapp
+  sudo chmod 777 /us/local/tomcat/webapps/javaapp
+  cp -Rf myapp/* /usr/local/tomcat/webapps/javaapp
+  sudo systemctl restart tomcat
+  
+  Note: Access the deployed application using the url http://IP:8080/javaapp
+```
+---
+## Create web application (with compile) deployment Job in Jenkins for tomcat
+```
+**SCM:**
+  url: https://gitlab.com/chinnu1028/maven-project2.git
+  branch: master
+
+**Invoke top-level Maven targets**
+  Maven Version: maven1
+  Goals: clean package
+
+**ExecuteShell**
+  cp -Rf webapp/target/portal.war /usr/local/tomcat/webapps/
+  sudo systemctl restart tomcat
+```
