@@ -43,6 +43,27 @@
 <img src="ApplicationSoftwareInstallation.PNG"/>
 
 ---
+## httpd installation
+
+```
+sudo yum install httpd
+sudo systemctl start httpd
+sudo systemctl enable httpd
+sudo systemctl status httpd
+
+```
+---
+## nginx installation
+
+```
+sudo yum install nginx
+sudo systemctl start nginx
+sudo systemctl enable nginx
+sudo systemctl status nginx
+
+```
+
+---
 ## Linux Standard Streams
 
 <img src="Linux_StandardStreams.PNG"/>
