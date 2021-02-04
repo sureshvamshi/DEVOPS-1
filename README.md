@@ -107,3 +107,81 @@ sudo systemctl restart nginx
 ## Java Web Application Build and Deploy Process
 
 <img src="JavaWebApplicationBuildDeployProcess.PNG"/>
+
+---
+## Install Tomcat using internet (source)
+```
+** Install JAVA **
+# install java if it is already not installed on linux
+  sudo yum install java-1.8.0-openjdk
+  
+# check java version
+  java -version
+
+** Install Tomcat **
+# cd /usr/local
+# sudo wget http://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.41.tar.gz
+# tar -xvf apache-tomcat-9.0.24.tar.gz
+# mv apache-tomcat-9.0.24 tomcat9
+
+** Create a User to run Tomcat under systemd **
+# useradd -r tomcat
+
+# Give permissions and ownership rights to the Tomcat installation directory.
+ chown -R tomcat:tomcat /usr/local/tomcat9
+ 
+** Next, create a tomcat.service unit file under /etc/systemd/system/ directory using VI editor. **
+  vi /etc/systemd/system/tomcat.service
+  
+# Copy and paste the following configuration in the tomcat.service file.
+  [Unit]
+  Description=Apache Tomcat Server
+  After=syslog.target network.target
+
+  [Service]
+  Type=forking
+  User=tomcat
+  Group=tomcat
+
+  Environment=CATALINA_PID=/usr/local/tomcat9/temp/tomcat.pid
+  Environment=CATALINA_HOME=/usr/local/tomcat9
+  Environment=CATALINA_BASE=/usr/local/tomcat9
+
+  ExecStart=/usr/local/tomcat9/bin/catalina.sh start
+  ExecStop=/usr/local/tomcat9/bin/catalina.sh stop
+
+  RestartSec=10
+  Restart=always
+  [Install]
+  WantedBy=multi-user.target
+  
+# Save the file reload the systemd configuration to apply the recent changes using the following command.
+  systemctl daemon-reload
+  
+** Start Tomcat **
+# Then start the tomcat service, enable it to auto-start at system boot and check the status using the following commands.
+  # systemctl start tomcat.service
+  # systemctl enable tomcat.service
+  # systemctl status tomcat.service
+  
+Note: Tomcat uses port 8080 and 8443 for HTTP and HTTPS requests respectively.
+
+** Access the Tomcat Server using web client(web browser) **
+   http://IP:8080
+   
+** Specify the Users for Manager GUI Page and Admin Page Access. **
+#  Finally we need to create user accounts to secure and access admin/manager pages. Edit /usr/local/tomcat9/conf/tomcat-users.xml file in your editor and paste inside <tomcat-users> </tomcat-users> tags.
+
+   <!-- user manager can access only manager section -->
+   <role rolename="manager-gui" />
+   <user username="manager" password="_SECRET_PASSWORD_" roles="manager-gui" />
+
+   <!-- user admin can access manager and admin section both -->
+   <role rolename="admin-gui" />
+   <user username="admin" password="_SECRET_PASSWORD_" roles="manager-gui,admin-gui" />
+   
+ ** Restart Tomcat Service **
+   systemctl restart tomcat.service
+   
+ ```
+ ---
