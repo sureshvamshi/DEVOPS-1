@@ -44,6 +44,11 @@
 <img src="ApplicationSoftwareInstallation.PNG"/>
 
 ---
+## Web Applications Deployments to Web Servers
+
+<img src="webapplicationsdeployment.PNG"/>
+
+---
 ## httpd installation
 
 ```
@@ -57,11 +62,12 @@ sudo systemctl status httpd
 ## nginx installation
 
 ```
-sudo yum install nginx
+sudo amazon-linux-extras install nginx1
 sudo systemctl start nginx
 sudo systemctl enable nginx
 sudo systemctl status nginx
 
+Note: Instead of yum repository we need to use amazon-linux-extras package manager to install nginx on amazon linux distribution.
 ```
 
 ---
@@ -96,11 +102,6 @@ sudo systemctl restart nginx
 ## Jenkins Build and Deployments to Different Environments
 
 <img src="Jenkins_BuildandDeployments.PNG"/>
-
----
-## Web Applications Deployments to Web Servers
-
-<img src="webapplicationsdeployment.PNG"/>
 
 ---
 ## Java Web Application Build and Deploy Process
