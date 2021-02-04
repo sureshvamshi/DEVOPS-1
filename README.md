@@ -31,7 +31,7 @@
 ```
 ** Install JAVA **
 # install java if it is already not installed on linux
-  yum install java-1.8.0-openjdk
+  sudo yum install java-1.8.0-openjdk
   
 # check java version
   java -version
