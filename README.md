@@ -40,9 +40,22 @@
 # create a user with existing group --> useradd -g users username 
 # add existing user to existing group --> usermod -aG wheel username
 ```
+---
+## Important Commands
 ```
-# command to check a user uid, gid and groups list
-  id username
+# netstat -anp | grep java/httpd/nginx   --> to check the port number of a application
+# ps -ef | grep java    --> to check java process 
+# sudo systemctl start servicename    --> to start a service
+# sudo systemctl stop servicename    --> to stop a service
+# sudo systemctl restart servicename    --> to restart a service
+# sudo systemctl status servicename    --> to see the status of a service
+# chmod 777 foldername/folderpath    --> to give permission to a folder
+# sudo -su sudousername    --> to switch to sudo user
+# sudo -i     --> to switch to root user
+# top     --> to check the CPU usage
+# find /etc -type f -name *filename*    --> to find the file localtion in etc folder
+# grep -lr 80 /etc    --> to get the list of filename which have 80 word inside.
+# id username    --> command to check a user uid, gid and groups list 
+
 ```
 ---
-
