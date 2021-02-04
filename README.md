@@ -2,13 +2,14 @@
 ---
 
 ## Jenkins Installation - 2 types
+```
  1. Install through internet.
  2. Install using Package Manager(YUM)
 
 **Note:** 
-- pre-request is jdk(java develoment kit) to be installed before Jenkins.
-- Java compiler(javac) should be worked fine.
-
+  1. pre-request is jdk(java develoment kit) to be installed before Jenkins.
+  2. Java compiler(javac) should be worked fine.
+```
 ---
 ## Jenkins Installation(Using Package Manager - YUM):
 ```
