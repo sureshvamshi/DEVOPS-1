@@ -131,29 +131,30 @@ sudo systemctl restart nginx
  chown -R tomcat:tomcat /usr/local/tomcat9
  
 ** Next, create a tomcat.service unit file under /etc/systemd/system/ directory using VI editor. **
-  vi /etc/systemd/system/tomcat.service
+   vi /etc/systemd/system/tomcat.service
   
 # Copy and paste the following configuration in the tomcat.service file.
-  [Unit]
-  Description=Apache Tomcat Server
-  After=syslog.target network.target
+   
+   [Unit]
+   Description=Apache Tomcat Server
+   After=syslog.target network.target
 
-  [Service]
-  Type=forking
-  User=tomcat
-  Group=tomcat
+   [Service]
+   Type=forking
+   User=tomcat
+   Group=tomcat
 
-  Environment=CATALINA_PID=/usr/local/tomcat9/temp/tomcat.pid
-  Environment=CATALINA_HOME=/usr/local/tomcat9
-  Environment=CATALINA_BASE=/usr/local/tomcat9
+   Environment=CATALINA_PID=/usr/local/tomcat9/temp/tomcat.pid
+   Environment=CATALINA_HOME=/usr/local/tomcat9
+   Environment=CATALINA_BASE=/usr/local/tomcat9
 
-  ExecStart=/usr/local/tomcat9/bin/catalina.sh start
-  ExecStop=/usr/local/tomcat9/bin/catalina.sh stop
+   ExecStart=/usr/local/tomcat9/bin/catalina.sh start
+   ExecStop=/usr/local/tomcat9/bin/catalina.sh stop
 
-  RestartSec=10
-  Restart=always
-  [Install]
-  WantedBy=multi-user.target
+   RestartSec=10
+   Restart=always
+   [Install]
+   WantedBy=multi-user.target
   
 # Save the file reload the systemd configuration to apply the recent changes using the following command.
   systemctl daemon-reload
