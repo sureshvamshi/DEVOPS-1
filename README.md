@@ -11,6 +11,7 @@
 
 ---
 ## Jenkins Installation(Using Package Manager - YUM):
+```
  1. connect to Linux machine using putty/mobaxterm. 
  2. go to the following location 
  https://www.jenkins.io/doc/book/installing/linux/
@@ -26,7 +27,7 @@
  12. Finally, you will see Jenkins Home Page.
 
 **Note:** Java installation is not required for Package Manager Installations.
-
+```
 ---
 ## Types of Applications
 
