@@ -121,8 +121,8 @@ sudo systemctl restart nginx
 ** Install Tomcat **
 # cd /usr/local
 # sudo wget http://www-us.apache.org/dist/tomcat/tomcat-9/v9.0.41/bin/apache-tomcat-9.0.41.tar.gz
-# tar -xvf apache-tomcat-9.0.24.tar.gz
-# mv apache-tomcat-9.0.24 tomcat9
+# tar -xvf apache-tomcat-9.0.41.tar.gz
+# mv apache-tomcat-9.0.41 tomcat9
 
 ** Create a User to run Tomcat under systemd **
 # useradd -r tomcat
@@ -180,6 +180,18 @@ Note: Tomcat uses port 8080 and 8443 for HTTP and HTTPS requests respectively.
    <!-- user admin can access manager and admin section both -->
    <role rolename="admin-gui" />
    <user username="admin" password="_SECRET_PASSWORD_" roles="manager-gui,admin-gui" />
+   
+** Enable Remote Access to Tomcat Manager and Host Manager**
+# By default, access to the Manager and Host Manager apps is restricted to the localhost, the server on which Tomcat is installed and running. But you can enable remote access to a       specific IP address or network e.g your LAN.
+
+# To enable remote access to the Manager app, open and edit the configuration file /opt/apache-tomcat-9.0.24/webapps/host-manager/META-INF/context.xml.
+  vi /usr/local/tomcat9/webapps/manager/META-INF/context.xml
+  
+  Then look for the following line.
+   allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1 />
+  
+  allow tomcat access from any host or network.
+   allow="127\.\d+\.\d+\.\d+|::1|0:0:0:0:0:0:0:1 |.*" />
    
  ** Restart Tomcat Service **
    systemctl restart tomcat.service
