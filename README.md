@@ -59,3 +59,14 @@
 
 ```
 ---
+## DNS (Domain Name System/Server)
+
+<img src="DNS.PNG"/>
+---
+## Variables
+These are nothing but memory spaces and which will be used to store human readable format data or values inside and recall them using $ symbol whenever required.
+
+**Types Of Variables**
+<img src="Variables.PNG"/>
+
+---
