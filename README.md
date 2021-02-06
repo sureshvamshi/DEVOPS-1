@@ -28,7 +28,10 @@
  12. Finally, you will see Jenkins Home Page.
 
 **Note:** 
-# find the below line in /etc/sudoers file
+# Open the /etc/sudoers file
+  sudo vi /etc/sudoers
+
+# find the below line
   root    ALL=(ALL)       ALL
   
 # add below line after the above line
