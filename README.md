@@ -26,8 +26,11 @@
 # add the non-sudo user to wheel group
   usermod -aG wheel non-sudouser
 
-# add the non-sudo user to 90-cloud-init-users file
- sudo vi /etc/sudoers.d/90-cloud-init-users
+# add the non-sudo user to /etc/sudoers file
+ sudo vi /etc/sudoers
+ 
+# find the below line and uncomment it 
+ %wheel ALL=(ALL)       NOPASSWD: ALL
 ```
 ---
 **Examples**
