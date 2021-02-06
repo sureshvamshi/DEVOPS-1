@@ -27,6 +27,12 @@
  11. provide username as jenkins and other relavent details.
  12. Finally, you will see Jenkins Home Page.
 
+**Note:** 
+# find the below line in /etc/sudoers file
+  root    ALL=(ALL)       ALL
+  
+# add below line after the above line
+ jenkins      ALL=(ALL)       NOPASSWD: ALL
 ```
 ---
 ## Types of Applications
