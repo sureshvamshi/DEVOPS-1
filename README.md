@@ -14,7 +14,7 @@
 ## Jenkins Installation(Using Package Manager - YUM):
 ```
  1. connect to Linux machine using putty/mobaxterm. 
- 2. go to the following location 
+ 2. go to the following location in browser
  https://www.jenkins.io/doc/book/installing/linux/
  3. click on Red Hat/CentOS
  4. execute the commands which are under Long Term Support release on Linux machine one by one
