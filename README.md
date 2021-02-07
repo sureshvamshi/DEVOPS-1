@@ -244,3 +244,18 @@ Note: 1. maven should be installed using internet source and add to Jenkins --> 
 <img src="WaysOfDeployment.PNG"/>
 
 ---
+## Jenkins Source Code Clone from GIT
+
+<img src="Jenkins_GIT.PNG"/>
+
+---
+## Jenkins Source Code Clone from GIT
+
+<img src="Jenkins_AWS.PNG"/>
+
+---
+## Jenkins, GIT and Web server (Web Application Build and Release)
+
+<img src="Jenkins_BuildRelease.PNG"/>
+
+---
