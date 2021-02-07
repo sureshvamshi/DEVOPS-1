@@ -28,14 +28,14 @@
  12. Finally, you will see Jenkins Home Page.
 
 **Note:** 
+# Add jenkins user to wheel group with the following command.
+  usermod -aG wheel jenkins
+
 # Open the /etc/sudoers file
   sudo vi /etc/sudoers
 
-# find the below line
-  root    ALL=(ALL)       ALL
-  
-# add below line after the above line
- jenkins      ALL=(ALL)       NOPASSWD: ALL
+# find the below line and uncomment it.
+  %wheel        ALL=(ALL)       NOPASSWD: ALL
 ```
 ---
 ## Types of Applications
