@@ -268,7 +268,17 @@ Note: 1. maven should be installed using internet source and add to Jenkins --> 
 <img src="JenkinsJobTypes.PNG"/>
 
 ---
-## usefull URL's for Tomcat deployment using Maven Plugin
+## Java web application deployment to Tomcat using Jenkins Plugin
+```
+# Download "Deploy to container" plugin in Jenkins
+
+# Add Post Build Action with the below image details(use your tomcat server IP and Port)
+
+<img src="deploywartotomcatcontainer.PNG"/>
+```
+---
+## Java web application deployment to Tomcat using Maven Plugin
+**usefull URL's:**
 ```
 https://priocept.com/2019/05/21/remote-deployment-of-java-web-applications-with-tomcat/
 
