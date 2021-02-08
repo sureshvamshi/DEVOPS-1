@@ -270,6 +270,15 @@ Note: 1. maven should be installed using internet source and add to Jenkins --> 
 ---
 ## Java web application deployment to Tomcat using Jenkins Plugin
 ```
+# open the file /usr/local/tomcat/conf/tomcat-users.xml and add the below lines at the bottom of the file.
+   <role rolename="manager-gui,"/>
+   <role rolename="manager-script"/>
+   <user username="deployer" password="tomcat123" roles="manager-gui,manager-script"/>
+
+# go to "manage jenkins" and add the credentials using above username and password.
+  username: deployer
+  password: tomcat123
+  
 # Download "Deploy to container" plugin in Jenkins
 
 # Add Post Build Action with the below image details(use your tomcat server IP and Port)
