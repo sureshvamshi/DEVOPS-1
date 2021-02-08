@@ -259,3 +259,8 @@ Note: 1. maven should be installed using internet source and add to Jenkins --> 
 <img src="Jenkins_BuildRelease2.PNG"/>
 
 ---
+## Deployment To Remote Server
+
+<img src="DeploymentToRemoteServer.PNG"/>
+
+---
