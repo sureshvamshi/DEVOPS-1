@@ -60,8 +60,9 @@
 ---
 ## httpd installation
 
-```
 #fff5b1, $bg-yellow-light
+
+```
 sudo yum install httpd
 sudo systemctl start httpd
 sudo systemctl enable httpd
