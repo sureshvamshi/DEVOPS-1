@@ -294,8 +294,16 @@ https://priocept.com/2019/05/21/remote-deployment-of-java-web-applications-with-
 
 https://www.journaldev.com/4738/tomcat7-maven-plugin-deploy-war
 
+https://mkyong.com/maven/how-to-deploy-maven-based-war-file-to-tomcat/
+
 ```
 ---
+## Swap memory issue fixup
+```
+https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/
+```
+---
+
 
 
 
