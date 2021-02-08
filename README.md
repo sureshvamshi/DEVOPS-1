@@ -264,3 +264,8 @@ Note: 1. maven should be installed using internet source and add to Jenkins --> 
 <img src="DeploymentToRemoteServer.PNG"/>
 
 ---
+## Jenkins Job Types
+
+<img src="JenkinsJobTypes.PNG"/>
+
+---
