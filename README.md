@@ -256,6 +256,6 @@ Note: 1. maven should be installed using internet source and add to Jenkins --> 
 ---
 ## Jenkins, GIT and Web server (Web Application Build and Release)
 
-<img src="Jenkins_BuildRelease.PNG"/>
+<img src="Jenkins_BuildRelease2.PNG"/>
 
 ---
