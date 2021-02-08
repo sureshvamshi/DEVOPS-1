@@ -268,3 +268,14 @@ Note: 1. maven should be installed using internet source and add to Jenkins --> 
 <img src="JenkinsJobTypes.PNG"/>
 
 ---
+## usefull URL's for Tomcat deployment using Maven Plugin
+```
+https://priocept.com/2019/05/21/remote-deployment-of-java-web-applications-with-tomcat/
+
+https://www.journaldev.com/4738/tomcat7-maven-plugin-deploy-war
+
+```
+---
+
+
+
