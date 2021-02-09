@@ -303,6 +303,27 @@ https://mkyong.com/maven/how-to-deploy-maven-based-war-file-to-tomcat/
 https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/
 ```
 ---
+## Jenkins GIT Integration
+
+<img src="Jenkins_GIT_integration.PNG"/>
+
+---
+## Java WebApplication Project with Maven POM
+
+<img src="JavaWebApplicationwithMaven.PNG"/>
+
+---
+## Jenkins Parameters
+
+<img src="Jenkins_Parameters.PNG"/>
+
+---
+## Application Configuration (Properties)
+**Properties will be changed for different environments**
+
+<img src="ApplicationConfigurationFiles.PNG"/>
+
+---
 
 
 
