@@ -329,6 +329,25 @@ https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/
 <img src="JenkinsAuthentication.PNG"/>
 
 ---
+## SSL Certificate
 
+<img src="SSLCertificate.PNG"/>
+
+---
+## Jenkins Authorisation
+
+<img src="Authorisation.PNG"/>
+
+---
+## Jenkins Distributed Builds (Master Slave Concept)
+
+<img src="DistributedBuilds.PNG"/>
+
+---
+## Database_Server_Architecture
+
+<img src="Database_Server_Architecture.PNG"/>
+
+---
 
 
