@@ -324,7 +324,11 @@ https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/
 <img src="ApplicationConfigurationFiles.PNG"/>
 
 ---
+## Jenkins Authentication
 
+<img src="JenkinsAuthentication.PNG"/>
+
+---
 
 
 
