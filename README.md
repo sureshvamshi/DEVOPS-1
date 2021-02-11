@@ -185,14 +185,13 @@ Note: Tomcat uses port 8080 and 8443 for HTTP and HTTPS requests respectively.
 #  Finally we need to create user accounts to secure and access admin/manager pages. Edit /usr/local/tomcat9/conf/tomcat-users.xml file in your editor and paste inside <tomcat-users> </tomcat-users> tags.
 
    <!-- user admin can access manager and admin section both -->
-   <role rolename="admin-gui,manager-gui,manager-script"/>
-   <user username="admin" password="tomcat123" roles="manager-gui,admin-gui,manager-script"/>
-   <user username="deployer" password="tomcat123" roles="manager-script"/>
+   <role rolename="manager-gui,manager-script"/>
+   <user username="deployer" password="tomcat123" roles="manager-gui,manager-script"/>
    
 ** Enable Remote Access to Tomcat Manager and Host Manager**
 # By default, access to the Manager and Host Manager apps is restricted to the localhost, the server on which Tomcat is installed and running. But you can enable remote access to a       specific IP address or network e.g your LAN.
 
-# To enable remote access to the Manager app, open and edit the configuration file /opt/apache-tomcat-9.0.24/webapps/host-manager/META-INF/context.xml.
+# To enable remote access to the Manager app, open and edit the configuration file /usr/local/tomcat9/webapps/host-manager/META-INF/context.xml.
   vi /usr/local/tomcat9/webapps/manager/META-INF/context.xml
   
   Then look for the following line.
