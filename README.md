@@ -349,5 +349,18 @@ https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/
 <img src="Database_Server_Architecture.PNG"/>
 
 ---
+## Jenkins Backup and Restore
 
+<img src="BackupandRestore.PNG"/>
 
+---
+## Jenkins Email Configuration
+
+<img src="Jenkins_EmailConfigure.PNG"/>
+
+---
+## Jenkins Build Triggers
+
+<img src="BuildTriggers.PNG"/>
+
+---
