@@ -368,3 +368,18 @@ https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/
 <img src="CICD.PNG"/>
 
 ---
+## Jenkins CICD
+
+<img src="JenkinsCICD.PNG"/>
+
+---
+## Jenkins Pipelines
+
+<img src="Jenkins_Pipelines.PNG"/>
+
+---
+## Jenkins Pipeline Benefits
+
+<img src="JenkinsPipelineInsights.PNG"/>
+
+---
