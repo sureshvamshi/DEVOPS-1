@@ -363,3 +363,8 @@ https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/
 <img src="BuildTriggers.PNG"/>
 
 ---
+## Jenkins Continuous Integration(CI) and Continuous Deployment/Continuous Delivery(CD)
+
+<img src="CICD.PNG"/>
+
+---
