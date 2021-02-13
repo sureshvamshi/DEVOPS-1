@@ -383,3 +383,18 @@ https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/
 <img src="JenkinsPipelineInsights.PNG"/>
 
 ---
+## Types Of Pipelines
+
+<img src="TypesOfPipelines.PNG"/>
+
+---
+## Declarative Pipeline Insights
+
+<img src="DeclarativePipelineInsights.PNG"/>
+
+---
+## Jenkinsfile
+
+<img src="Jenkinsfile.PNG"/>
+
+---
