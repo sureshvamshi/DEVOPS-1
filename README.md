@@ -400,7 +400,7 @@ https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/
 ---
 ## Build Pipeline
 ```
-1. install Build Pipeline Plugin
+1. install "Build Pipeline" Plugin
 2. Go to QA
  - New View or "+" symbol
  - select Build Pipeline
