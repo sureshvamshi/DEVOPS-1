@@ -450,6 +450,11 @@ https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/
 # create a pipeline for Java web application (with compile) deployment (Maven plugin - tomcat7:deploy) to tomcat application server
 ```
 
-**NOTE: "Pipeline" plugin for scripted and declarative pipelines will be installed by default whenever we install jenkins.**
+**NOTE:** 
+-"Pipeline" plugin for scripted and declarative pipelines will be installed by default whenever we install jenkins.
+-if any doubts, please refer the following jenkins url
+-http://52.87.182.2:8082/job/QA/
+-username: jenkins
+-password: Password123
 
 ---
