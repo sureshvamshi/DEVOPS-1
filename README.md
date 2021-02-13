@@ -29,3 +29,64 @@
  - Build and deployments should be done by Node or Slave
 ```
 ---
+## Build Pipeline
+```
+1. install "Build Pipeline" Plugin
+2. Go to QA
+ - New View or "+" symbol
+ - select Build Pipeline
+ - select initial step
+ - save
+3. add other job
+ - go to initial job
+ - post build actions
+ - select "Build other projects"
+ - select the job
+ - save
+```
+---
+## Pipelines Practice
+
+**Scripted Pipeline**
+```
+# create a sample pipeline using shell commands
+
+# create a pipeline for html web application deployment to httpd web server
+
+# create a pipeline for html web application deployment to NGINX web server
+
+# create a pipeline for Java web application (without compile) deployment (Execute shell) to tomcat application server
+
+# create a pipeline for Java web application (with compile) deployment (Execute shell) to tomcat application server
+
+# create a pipeline for Java web application (with compile) deployment (Jenkins plugin - deploy to war/ear container) to tomcat application server
+
+# create a pipeline for Java web application (with compile) deployment (Maven plugin - tomcat7:deploy) to tomcat application server
+```
+
+**Declarative Pipeline**
+```
+# create a sample pipeline using shell commands
+
+# create a pipeline for html web application deployment to httpd web server
+
+# create a pipeline for html web application deployment to NGINX web server
+
+# create a pipeline for Java web application (without compile) deployment (Execute shell) to tomcat application server
+
+# create a pipeline for Java web application (with compile) deployment (Execute shell) to tomcat application server
+
+# create a pipeline for Java web application (with compile) deployment (Jenkins plugin - deploy to war/ear container) to tomcat application server
+
+# create a pipeline for Java web application (with compile) deployment (Maven plugin - tomcat7:deploy) to tomcat application server
+```
+
+**NOTE:** 
+```
+# "Pipeline" plugin for scripted and declarative pipelines will be installed by default whenever we install jenkins.
+# if any doubts, please refer the following jenkins url
+  http://52.87.182.2:8082/job/QA/
+  username: jenkins
+  password: Password123
+```
+---
