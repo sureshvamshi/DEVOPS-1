@@ -451,10 +451,11 @@ https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/
 ```
 
 **NOTE:** 
--"Pipeline" plugin for scripted and declarative pipelines will be installed by default whenever we install jenkins.
--if any doubts, please refer the following jenkins url
--http://52.87.182.2:8082/job/QA/
--username: jenkins
--password: Password123
-
+```
+# "Pipeline" plugin for scripted and declarative pipelines will be installed by default whenever we install jenkins.
+# if any doubts, please refer the following jenkins url
+  http://52.87.182.2:8082/job/QA/
+  username: jenkins
+  password: Password123
+```
 ---
