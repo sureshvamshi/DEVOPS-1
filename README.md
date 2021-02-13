@@ -398,6 +398,22 @@ https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/
 <img src="Jenkinsfile.PNG"/>
 
 ---
+## Build Pipeline
+```
+1. install Build Pipeline Plugin
+2. Go to QA
+ - New View or "+" symbol
+ - select Build Pipeline
+ - select initial step
+ - save
+3. add other job
+ - go to initial job
+ - post build actions
+ - select "Build other projects"
+ - select the job
+ - save
+```
+---
 ## Pipelines Practice
 
 **Scripted Pipeline**
@@ -433,4 +449,5 @@ https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/
 
 # create a pipeline for Java web application (with compile) deployment (Maven plugin - tomcat7:deploy) to tomcat application server
 ```
+**NOTE: "Pipeline" plugin for scripted and declarative pipelines will be installed by default whenever we install jenkins.**
 ---
