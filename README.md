@@ -23,7 +23,7 @@
 ```
 
 ---
-# Distributed Builds ( Master Slave Concept )
+## Distributed Builds ( Master Slave Concept )
 ```
 # create a maven job to Build(maven) and deploy Java web application (with compile) to Tomcat web server ( Use Jenkins Plugin for deployment ).
  - Build and deployments should be done by Node or Slave
