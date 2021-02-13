@@ -398,3 +398,39 @@ https://aws.amazon.com/premiumsupport/knowledge-center/ec2-memory-swap-file/
 <img src="Jenkinsfile.PNG"/>
 
 ---
+## Pipelines Practice
+
+**Scripted Pipeline**
+```
+# create a sample pipeline using shell commands
+
+# create a pipeline for html web application deployment to httpd web server
+
+# create a pipeline for html web application deployment to NGINX web server
+
+# create a pipeline for Java web application (without compile) deployment (Execute shell) to tomcat application server
+
+# create a pipeline for Java web application (with compile) deployment (Execute shell) to tomcat application server
+
+# create a pipeline for Java web application (with compile) deployment (Jenkins plugin - deploy to war/ear container) to tomcat application server
+
+# create a pipeline for Java web application (with compile) deployment (Maven plugin - tomcat7:deploy) to tomcat application server
+```
+
+**Declarative Pipeline**
+```
+# create a sample pipeline using shell commands
+
+# create a pipeline for html web application deployment to httpd web server
+
+# create a pipeline for html web application deployment to NGINX web server
+
+# create a pipeline for Java web application (without compile) deployment (Execute shell) to tomcat application server
+
+# create a pipeline for Java web application (with compile) deployment (Execute shell) to tomcat application server
+
+# create a pipeline for Java web application (with compile) deployment (Jenkins plugin - deploy to war/ear container) to tomcat application server
+
+# create a pipeline for Java web application (with compile) deployment (Maven plugin - tomcat7:deploy) to tomcat application server
+```
+---
