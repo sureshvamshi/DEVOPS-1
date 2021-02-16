@@ -1138,3 +1138,228 @@ git add ., git add -A
  - True
 
  - False :heavy_check_mark:
+ 
+ 
+ ---
+ 
+ # LINUX, JENKINS, MAVEN
+ 
+ **1.Which command is used to check the port number of Jenkins?**
+
+- netstat -anp| grep java
+
+
+**2.
+Command to find the file localtion in etc folder**
+
+- find root -type f -name filename
+- find /etc -type d -name filename
+- find /etc -type f -name filename :heavy_check_mark:
+- All the above
+
+**3.
+command to check a user uid, gid and groups list**
+
+- id
+- id username :heavy_check_mark:
+- id gid
+- id groups list
+
+**4.
+Which symbol is used to recall the variables or retrieve the variable value ?**
+
+- $
+
+**5.
+What is the prerequisite for jenkins?**
+
+- Java
+
+**6.
+Command to add existing user to wheel group**
+
+- usermod -a wheel user
+- usermod -aG wheel
+- usermod -aG user
+- usermod -aG wheel user :heavy_check_mark:
+
+**7.
+8080 is the default port number of which server**
+
+- Jenkins
+- Tomcat
+- Nginx
+- both 1&2 :heavy_check_mark:
+- All the three
+
+**8.
+Default Root directory of tomcat is**
+
+- /usr/local/tomcat/webapps :heavy_check_mark:
+- /usr/tomcat/webapps
+- /var/tomcat/webapps
+- /var/local/tomcat/webapps
+
+**9.
+The default port number of Nginx server is**
+
+- 80
+
+**10.
+Write java artifacts**
+
+- jar,war,ear
+
+**11. How to check the Java version**
+
+- java -version
+
+ or
+ 
+- java --version
+
+**12.
+In how many ways a java web application can be deployed to tomcat ?**
+
+- Jenkins Plugin
+- Execute Shell
+- FTP
+- maven plugin
+- all of the above :heavy_check_mark:
+
+**13.
+Where we find the email notification option in Jenkins job configuration?**
+
+- Build tab
+- SCM Tab
+- Build Triggers Tab
+- Post Build settings Tab :heavy_check_mark:
+
+**14.
+Scheduling job for 8:10 pm everyday**
+
+- 10 08 * * *
+- 10 20 * * * :heavy_check_mark:
+- 08 10 * * *
+- 0 0 * * *
+
+**15
+Which command is used to search for a pattern or word in a file?**
+
+- grep
+
+**16.
+Maven is used to**
+
+- Build the application
+- Test the application
+- Deploy the application
+- all the three :heavy_check_mark:
+
+**17.
+Which File contains information about the project and configuration details used by Maven to build the project.**
+
+- pom.xml
+
+**18.
+which command lets you send the output of one command to another command ?**
+
+- |
+
+**19.
+What is the use of mvn deploy plugin?**
+
+- install the built artifact to the Local repository
+- Deploy the built artifact to the Central repository
+- install the built artifacts to the remote repository :heavy_check_mark:
+- Deploy the built artifact to Application Server
+
+**20.
+In which pipeline we write the code in Jenkinsfile?**
+
+- Scripted Pipeline
+- Declarative Pipeline :heavy_check_mark:
+- Build Pipeline
+- All the above
+
+**21.
+What is Jenkins default home directory?**
+
+- /var/lib/jenkins :heavy_check_mark:
+- /usr/lib/jenkins
+- /lib/jenkins
+- /var/usr/jenkins
+
+**22.
+which goal is used to install artifacts in to maven local repository?**
+
+- mvn clone
+- mvn deploy
+- mvn install :heavy_check_mark:
+- mvn compile
+
+**23.
+what is the extension of Jenkins plugins?**
+
+- .hpi
+- .plugin
+- .jpi
+- both 1&3 :heavy_check_mark:
+- all the three
+
+**24.
+Which file needs to be modified in order to change the port number of Jenkins?**
+
+- /etc/sysconfig/jenkins.conf
+- /etc/sysconfig/jenkins.xml :heavy_check_mark:
+- /etc/sysconfig/config.xml
+- jenkins.port
+
+**25.
+In which location war file gets generated after compilation?**
+
+- myapps/warfiles/
+- myapps/
+- myapps/target/ :heavy_check_mark:
+- myapps/src/
+
+**26.
+cron syntax to build a job every ?**
+
+- 5 * * * *
+- 0 5 * * *
+- 60/5 * * * *
+- */5 * * * * :heavy_check_mark:
+
+**27.
+while deploying a java web application to tomcat 9 server using maven plugin, which maven goal should be used ?**
+
+- install
+- deploy
+- tomcat:deploy
+- tomcat7:deploy :heavy_check_mark:
+- tomcat6:deploy
+
+**28.
+which file should be modified to create a manager user in tomcat application server ?**
+
+- server.xml
+- tomcat-users.xml :heavy_check_mark:
+- context.xml
+- conf.xml
+
+**29.
+which command is used to convert a variable into environment variable ?**
+
+- echo
+- export :heavy_check_mark:
+- env
+- set
+
+**30.
+which authorisation can be used in Jenkins ?**
+
+- Matrix Based Authorisation :heavy_check_mark:
+- LDAP Authorisation
+- Jenkins Database Authorisation
+- Xml Authorisation
