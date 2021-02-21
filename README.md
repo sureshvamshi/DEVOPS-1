@@ -34,13 +34,11 @@
 ## sed_command
 
 <img src="sed_command.PNG"/>
---
+
 **Please use the following url's for practice:**
 
-https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/
-https://www.howtogeek.com/666395/how-to-use-the-sed-command-on-linux/
-
---
+- https://www.geeksforgeeks.org/sed-command-in-linux-unix-with-examples/
+- https://www.howtogeek.com/666395/how-to-use-the-sed-command-on-linux/
 
 ---
 ## AWK Command
