@@ -6,6 +6,11 @@
 <img src="shellscripting_advantages.PNG"/>
 
 ---
+## Shell Script Practice
+
+- https://www.javatpoint.com/scripting-shell-function
+
+---
 ## Execute and Source of Shell Script 
 
 <img src="ShellScript_Execute_Source.PNG"/>
@@ -45,6 +50,11 @@
 
 <img src="AWK.PNG"/>
 
+**Please use the following url's for practice:**
+
+- https://www.geeksforgeeks.org/awk-command-unixlinux-examples/
+- https://linuxize.com/post/awk-command/
+
 ---
 ## AWK_Example
 
@@ -54,5 +64,11 @@
 ## SMTP Server
 
 <img src="SMTPServer.PNG"/>
+
+---
+## CUT Command
+
+**Please use the following url's for practice:**
+- https://www.geeksforgeeks.org/cut-command-linux-examples/
 
 ---
