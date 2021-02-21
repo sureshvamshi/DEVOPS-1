@@ -8,7 +8,7 @@
 ---
 ## Shell Script Practice
 
-- https://www.javatpoint.com/scripting-shell-function
+- https://www.javatpoint.com/shell-scripting-tutorial
 
 ---
 ## Execute and Source of Shell Script 
