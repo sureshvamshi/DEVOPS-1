@@ -21,3 +21,33 @@
 <img src="PositionalParameters.PNG"/>
 
 ---
+## Variables with Shell Script
+
+<img src="VariableswithShellscript.PNG"/>
+
+---
+## Linux_Advanced_Commands
+
+<img src="Linux_Advanced_Commands.PNG"/>
+
+---
+## sed_command
+
+<img src="sed_command.PNG"/>
+
+---
+## AWK Command
+
+<img src="AWK.PNG"/>
+
+---
+## AWK_Example
+
+<img src="AWK_Example.PNG"/>
+
+---
+## SMTP Server
+
+<img src="SMTPServer.PNG"/>
+
+---
