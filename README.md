@@ -177,5 +177,12 @@ docker kill - forcefull
   366  docker images
   367  clear
   368  history
+  210  docker logs satc1
+  211  docker logs -f satc1
+  212  clear
+  213  docker logs -f satc1
+  214  clear
+  215  docker logs -f satc1
+
   ```
   ---
