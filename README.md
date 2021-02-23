@@ -185,4 +185,39 @@ docker kill - forcefull
   215  docker logs -f satc1
 
   ```
-  ---
+---
+## Create and Connect to Container
+
+<img src="CreateandConnecttoContainer.PNG"/>
+
+---
+## Image
+
+<img src="Image.PNG"/>
+
+---
+## VM Image vs Docker Image
+
+<img src="VMImagevsDockerImage.PNG"/>
+
+---
+## Image for Containers
+
+<img src="ImageforContainers.PNG"/>
+
+---
+## Windows Containers Vs Linux Containers
+
+<img src="WindowsVsLinuxContainers.PNG"/>
+
+---
+## Parent Process for Container Life Time
+
+<img src="ParentProcessforContainerLifeTime.PNG"/>
+
+---
+## Types of Registry
+
+<img src="TypesofRegistry.PNG"/>
+
+---
