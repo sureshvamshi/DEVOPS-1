@@ -273,7 +273,7 @@ docker kill - forcefull
 <img src="BuildingCustomImageUsingDockerBuild.PNG"/>
 
 ---
-# Map or Publish or Expose Container Port with Host VM Port
+# Port Forwarding or Map or Publish or Expose Container Port with Host VM Port
 
 <img src="MapContainerPortwithHostVMPort.PNG"/>
 
