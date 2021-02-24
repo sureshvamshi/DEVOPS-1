@@ -221,3 +221,20 @@ docker kill - forcefull
 <img src="TypesofRegistry.PNG"/>
 
 ---
+## Difference between CMD and ENTRYPOINT
+
+- Both CMD and ENTRYPOINT instructions define what command gets executed when running a container. There are few rules that describe their co-operation.
+
+- Dockerfile should specify at least one of CMD or ENTRYPOINT commands.
+
+- ENTRYPOINT should be defined when using the container as an executable.
+
+- CMD should be used as a way of defining default arguments for an ENTRYPOINT command or for executing an ad-hoc command in a container.
+
+- CMD will be overridden when running the container with alternative arguments.
+
+**URL** 
+- https://docs.docker.com/engine/reference/builder/#understand-how-cmd-and-entrypoint-interact
+- https://phoenixnap.com/kb/docker-cmd-vs-entrypoint#:~:text=CMD%20is%20an%20instruction%20that,container%20with%20a%20specific%20executable.
+
+---
