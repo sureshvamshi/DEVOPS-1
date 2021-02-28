@@ -655,7 +655,7 @@ https://docs.docker.com/compose/install/
 ## Docker compose file version history:
 https://docs.docker.com/compose/compose-file/
 
-## Example 1
+## Example 1 - alpine image deployment
 ```
 [ec2-user@ip-172-31-81-232 satexample1]$ cat  docker-compose.yaml 
 version: "3.8"
@@ -693,7 +693,7 @@ Removing satc1 ... done
 Removing network satexample1_default
 ```
 ---
-## Example 2
+## Example 2 - Java web application deployment
 ```
 [ec2-user@ip-172-31-81-232 satcompose1]$ cat  jsp-compose.yaml 
 version: "3.8"
@@ -709,7 +709,7 @@ Deployment
 ```
 
 ---
-## Example 3
+## Example 3 - Portainer Application Deployment
 ```
 [ec2-user@ip-172-31-81-232 satcompose1]$ cat portainer.yml 
 version: "3.8"
@@ -718,7 +718,7 @@ services:
   image: portainer/portainer
   container_name: satwebui
   ports:  # is an array object 
-   - "2233:9000"
+   - "9000:9000"
   volumes:
    - "/var/run/docker.sock:/var/run/docker.sock"
    
@@ -748,28 +748,27 @@ satwebui   /portainer   Up      0.0.0.0:2233->9000/tcp
 [ec2-user@ip-172-31-81-232 satcompose1]$ cat multi-container.yml 
 version: "3.8"
 services:
- satjavaapp1:  # app 1
-  image: dockersat/satjsp:v1
+ sathttpdapp1:  # app 1
+  image: httpd
   container_name: satwb1
   ports:  # is an array object 
-   - "2233:8080"
+   - "80:80"
 satalpineapp2:  #  app2
   image: alpine
   container_name: satc22
   command: ping 8.8.8.8
-[ec2-user@ip-172-31-81-232 satcompose1]$ docker-compose -f multi-container.yml   stop  satjavaapp1
+[ec2-user@ip-172-31-81-232 satcompose1]$ docker-compose -f multi-container.yml   stop  sathttpdapp1
 Stopping satwb1 ... done
 [ec2-user@ip-172-31-81-232 satcompose1]$ docker-compose -f multi-container.yml   ps
  Name         Command        State     Ports
 --------------------------------------------
 satc22   ping 8.8.8.8      Up              
 satwb1   catalina.sh run   Exit 143        
-[ec2-user@ip-172-31-81-232 satcompose1]$ docker-compose -f multi-container.yml   start  satjavaapp1
+[ec2-user@ip-172-31-81-232 satcompose1]$ docker-compose -f multi-container.yml   start  sathttpdapp1
 Starting satjavaapp1 ... done
-[ec2-user@ip-172-31-81-232 satcompose1]$ docker-compose -f multi-container.yml   start  satjavaapp1
 ```
 ---
-## Example 5 build and create
+## Example 5 - build and create Python Code
 ```
 [ec2-user@ip-172-31-81-232 pyapp]$ ls
 Dockerfile  docker-compose.yml  hello.py
@@ -782,7 +781,7 @@ services:
   container_name: satpc1  #  if image got build successfully then container will be created
 ```
 ---
-## Example 6 :
+## Example 6 - python code
 ```
 [ec2-user@ip-172-31-81-232 htmlapp]$ cat  docker-compose.yml 
 version: "3.8"
@@ -799,7 +798,7 @@ services:
 
 ---
 
-## Final example
+## Final example - multi container MYSQL and ADMINER client deployment
 ```
 [ec2-user@ip-172-31-81-232 htmlapp]$ cat  mysql.yml 
 # Use root/example as user/password credentials
