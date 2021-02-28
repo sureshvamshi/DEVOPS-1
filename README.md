@@ -712,9 +712,9 @@ Deployment
 ## Example 3 - Portainer Application Deployment
 
 **Pre-requisite:**
-please edi the following file
-file: Vi /etc/sysconfig/docker
-content: OPTIONS="--default-ulimit nofile=1024:4096 -H tcp://0.0.0.0:2375  -H unix:///var/run/docker.sock"
+ #please edi the following file
+ #file: Vi /etc/sysconfig/docker
+ #content: OPTIONS="--default-ulimit nofile=1024:4096 -H tcp://0.0.0.0:2375  -H unix:///var/run/docker.sock"
 
 ```
 [ec2-user@ip-172-31-81-232 satcompose1]$ cat portainer.yml 
