@@ -710,6 +710,12 @@ Deployment
 
 ---
 ## Example 3 - Portainer Application Deployment
+
+**Pre-requisite:**
+please edi the following file
+file: Vi /etc/sysconfig/docker
+content: OPTIONS="--default-ulimit nofile=1024:4096 -H tcp://0.0.0.0:2375  -H unix:///var/run/docker.sock"
+
 ```
 [ec2-user@ip-172-31-81-232 satcompose1]$ cat portainer.yml 
 version: "3.8"
@@ -738,7 +744,7 @@ satwebui   /portainer   Up      0.0.0.0:2233->9000/tcp
 [ec2-user@ip-172-31-81-232 satcompose1]$ docker-compose -f portainer.yml  logs
 ```
 ---
-## Example 4
+## Example 4 - Multi container deployment
 ```
   550  docker-compose -f multi-container.yml  up -d
   551  docker-compose -f multi-container.yml  ps
