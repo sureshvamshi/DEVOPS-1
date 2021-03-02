@@ -303,14 +303,14 @@ Link4: https://kubernetes.io/docs/tasks/tools/install-kubectl/
 ```
 ---
 ## Installing k8s cluster in VMS/DC/Baremetal -- using kubeadm
-
-1. Create 3 VM's in AWS
+```
+# 1. Create 3 VM's in AWS
 - 1 master and 2 minion Nodes ( master - 4 GB RAM, 2 CPUS and 20 GB Diskspace, minionnodes - 1 GB RAM, 1 CPU and 8 GB Disksapce)
 
-2. set hostnames for all 3 VM's
+# 2. set hostnames for all 3 VM's
 - hostnamectl set-hostname 'master'
 
-3. create setup.sh script and write the following content into that. Execute this script on master and minion nodes.
+# 3. create setup.sh script and write the following content into that. Execute this script on master and minion nodes.
 [root@ip-172-31-46-37 ~]# cat > setup.sh 
 #############################################################################
 # selinux security off
@@ -337,36 +337,37 @@ systemctl start docker  kubelet
 systemctl enable  docker  kubelet 
 ##############################################################################
 
-4. chmod +x setup.sh
+# 4. chmod +x setup.sh
 
-5. ./setup.sh
+# 5. ./setup.sh
 
-6. Do this only on Kubernetes Master
+# 6. Do this only on Kubernetes Master
   In case of cloud services like aws, azure if you want to bind public with certificate of kubernetes and We are here using Calico Networking, so we need to pass some parameter  you can start Kubernetes_networking from this.
   [root@master ~]# kubeadm init --pod-network-cidr=192.168.0.0/16 --apiserver-advertise-address=0.0.0.0   --apiserver-cert-extra-sans=publicip,privateip,serviceip
 
-7. Use the output of above command and paste it to all the worker nodes
+# 7. Use the output of above command and paste it to all the worker nodes
 Example: kubeadm join 172.31.88.229:6443 --token p2k6uz.n28z7csymyd8ax57 --discovery-token-ca-cert-hash sha256:26a81ba851e73e6339d79749c3cfcba0fe256b06ea21a4518438fe0dedfd548e
 
-8. Do this only on Kubernetes Master
+# 8. Do this only on Kubernetes Master
   [root@master ~]# mkdir -p $HOME/.kube
   [root@master ~]#  cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
   [root@master ~]# chown $(id -u):$(id -g) $HOME/.kube/config
 
-9. Now apply calico project
+# 9. Now apply calico project
    kubectl apply -f https://docs.projectcalico.org/v3.8/manifests/calico.yaml
    
    Or Download 3.16 latest version as now october 2020
    wget https://docs.projectcalico.org/manifests/calico.yaml
    kubectl apply -f calico.yaml
 
-10. Now you can check nodes status
+# 10. Now you can check nodes status
 [root@master ~]# kubectl get nodes
 NAME                 STATUS   ROLES    AGE     VERSION
 master.example.com   Ready    master   11m     v1.12.2
 node1.example.com    Ready    <none>   9m51s   v1.12.2
 node2.example.com    Ready    <none>   9m25s   v1.12.2
 node3.example.com    Ready    <none>   9m3s    v1.12.2
+```
 ---
 
 
