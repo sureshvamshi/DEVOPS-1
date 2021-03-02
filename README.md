@@ -10,9 +10,9 @@
 <img src="ContainerOrchestrationTools.PNG"/>
 
 ---
-## Problems In Container Based Application Hosting
+## Kubernetes_Manager
 
-<img src="ProblemsInContainerBasedApplicationHosting.PNG"/>
+<img src="Kubernetes_Manager.PNG"/>
 
 ---
 ## Problems In Container Based Application Hosting
