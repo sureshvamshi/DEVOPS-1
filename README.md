@@ -571,7 +571,278 @@ Events:
   Normal  Started    100s  kubelet            Started container satc1
 ```
 ---
+## Replication Controller:
+```
+- created a yaml for RC
+     - created RC api resource
+     - created a POD
+ - scaled up and down
+ - exposed RC as a service (NodePort)
+```
+---
+**commands:**
+```
+ 243  kubectl api-resources
+  244  clear
+  245  ls
+ 246  kubectl apply -f rc.yaml --dry-run=client
+  247  kubectl get rc
+  248  kubectl delete rc
+  249  kubectl delete rc --all
+  250  clear
+  251  kubectl apply -f rc.yaml --dry-run=client
+  252  kubectl apply -f rc.yaml
+  253  kubectl get rc
+  254  kubectl get po
+  255  kubectl delete pod sat-rc-1-sntxh
+  256  kubectl get po
+  257  clear
+  258  kubectl --help
+  259  clear
+  260  kubectl replace -f rc.yaml
+  261  kubectl get po
+  262  kubectl replace -f rc.yaml --force
+  263  kubectl get rc
+  264  clear
+  265  kubectl get po
+  266  clear
+  267  kubectl --help
+  268  clear
+  269  kubectl get rc
+  270  kubectl scale rc sat-rc-1 --replicas=3
+  271  kubectl get po
+  272  kubectl scale rc sat-rc-1 --replicas=5
+  273  kubectl get po
+  274  kubectl scale rc sat-rc-1 --replicas=2
+  275  kubectl get po
+  276  clear
+  277  kubectl get po
+  278  kubectl scale rc sat-rc-1 --replicas=1
+  279  kubectl get po
+  280  clear
+  281  kubectl get rc
+  282  kubectl get po
+  283  kubectl describe po sat-rc-1-rqkh7
+  284  clear
+  285  ls
+  286  cat svc1.yaml
+  287  clear
+  288  kubectl --help
+  289  clear
+  290  kubectl get rc
+  291  kubectl expose rc sat-rc-1 --type NodePort --port 2354 --target-port 80 --name rcsvc1
+  292  kubectl get svc
+  293  curl ifconfig.io
+  294  clear
+  295  cat rc.yaml
+  296  clear
+  297  history
+306  kubectl get rc -o wide
+310  kubectl get pods --show-labels
+```
+---
+**Problems of Containers resolved:**
+```
+1. management
+api-resources
+ - service
+ - replication controller
+ - node controller
 
+2. High Availability (HA)
+ - Replication Controller
+ - Replica Set
 
+3. Scale up and Down
+ - Replication Controller
+ - Replica Set
+ - Deployment
+```
+---
+## Deployment Api Resource:
+```
+1. created deployment api resource
+   - deployment created
+   - replica set created
+   - pod is created
+2. exposed deployment as a service(NodePort)
+3. deployment resource scaled up and down
+4. deployment roll-back
+````
+---
+**Deployment Resource Details:**
+```
+[root@master practice]# kubectl describe deploy satdep1
+Name:                   satdep1
+Namespace:              default
+CreationTimestamp:      Wed, 03 Mar 2021 03:57:12 +0000
+Labels:                 app=satdep1
+Annotations:            deployment.kubernetes.io/revision: 1
+Selector:               app=deppod1
+Replicas:               3 desired | 3 updated | 3 total | 3 available | 0 unavailable
+StrategyType:           RollingUpdate
+MinReadySeconds:        0
+RollingUpdateStrategy:  25% max unavailable, 25% max surge
+Pod Template:
+  Labels:  app=deppod1
+  Containers:
+   depc1:
+    Image:        nginx
+    Port:         <none>
+    Host Port:    <none>
+    Environment:  <none>
+    Mounts:       <none>
+  Volumes:        <none>
+Conditions:
+  Type           Status  Reason
+  ----           ------  ------
+  Progressing    True    NewReplicaSetAvailable
+  Available      True    MinimumReplicasAvailable
+OldReplicaSets:  <none>
+NewReplicaSet:   satdep1-78c87d988d (3/3 replicas created)
+Events:
+  Type    Reason             Age    From                   Message
+  ----    ------             ----   ----                   -------
+  Normal  ScalingReplicaSet  11m    deployment-controller  Scaled up replica set satdep1-78c87d988d to 1
+  Normal  ScalingReplicaSet  2m41s  deployment-controller  Scaled up replica set satdep1-78c87d988d to 3
+```
+---
+**commands:**
+```
+310  kubectl get pods --show-labels
+  311  history
+  312  clear
+  313  cd /usr/local/practice/
+  314  ls
+  315  clear
+  316  docker version
+  317  clear
+  318  kubectl get deployments
+  319  clear
+  320  kubectl create deployment satdep1 --image=nginx --dry-run=client -o yaml
+  321  kubectl create deployment satdep1 --image=nginx --dry-run=client -o yaml > dep.yaml
+  322  clear
+  323  vi dep.yaml
+  324  clear
+  325  kubectl apply -f dep.yaml
+  326  kubectl get dep
+  327  kubectl get deploy
+  328  kubectl get deploy -o wide
+  329  kubect get RS
+  330  kubect get rs
+  331  kubectl get rs
+  332  kubectl get rs -o wide
+  333  kubectl get po
+  334  clear
+  335  kubectl get deploy
+  336  kubectl expose deploy satdep1 --type NodePort --port 2564 --target-port 80 --name depsvc1
+  337  kubectl get svc
+  338  kubectl --help
+  339  clear
+  340  kubectl get deploy
+  341  kubectl scale deploy satdep1 --replicas=3
+  342  kubectl get po
+  343  kubectl deploy --help
+  344  kubectl deployment --help
+  345  kubectl deployments --help
+  346  kubectl --help
+  347  clear
+  348  kubectl get deploy
+  349  kubectl describe deploy satdep1
+  350  clear
+  351  kubectl rollout history deploy satdep1
+  352  kubectl replace deploy satdep1 --force
+  353  kubectl replace deploy satdep1 -f
+  354  clear
+  355  kubectl  set image  deployment  ashu-depweb jan2021=dockerashu/jan2021:webv2
+  356  docker images
+  357  clear
+  358  kubectl create deploy satdep2 --image=satish1010/httpd:sat1 --dry-run=client
+  359  kubectl create deploy satdep2 --image=satish1010/httpd:sat1 --dry-run=client -o yaml
+  360  kubectl create deploy satdep2 --image=satish1010/httpd:sat1 --dry-run=client -o yaml > dep2.yaml
+  361  clear
+  362  ls
+  363  kubectl apply -f dep2.yaml
+  364  kubectl get deploy
+  365  docker images
+  366  clear
+  367  git --version
+  368  yum install git -y
+  369  clear
+  370  ls
+  371  git clone https://gitlab.com/chinnu1028/beginner-html-site-styled.git
+  372  ls
+  373  cd beginner-html-site-styled/
+  374  ls
+  375  docker build -t satish1010/httpd:deploy .
+  376  clear
+  377  ls
+  378  docker images
+  379  clear
+  380  docker push satish1010/httpd:deploy
+  381  docker login
+  382  docker push satish1010/httpd:deploy
+  383  clear
+  384  ls
+  385  cd ..
+  386  ls
+  387  celar
+  388  clear
+  389  ls
+  390  kubectl get deploy
+  391  kubectl delete deploy --all
+  392  kubectl get deploy
+  393  kubectl get pod
+  394  clear
+  395  ls
+  396  vi dep2.yaml
+  397  clear
+  398  kubectl apply -f dep2.yaml
+  399  kubectl get deploy
+  400  kubectl get pods
+  401  clear
+  402  kubectl get deploy
+  403  kubectl expose deploy satdep2 --type NodePort --port 3425 --target-port 80 --name depsvc2
+  404  kubectl get svc -o wide
+  405  kubectl describe deploy satdep2
+  406  clear
+  407  kubectl rollout history deploy satdep2
+  408  ls
+  409  cd beginner-html-site-styled/
+  410  ls
+  411  cat index.html
+  412  vi index.html
+  413  clear
+  414  ls
+  415  history
+  416  docker build -t satish1010/httpd:deploy2 .
+  417  docker push satish1010/httpd:deploy2
+  418  clear
+  419  ls
+  420  cd ..
+  421  ls
+  422  kubectl  set image  deployment  satdep2 jan2021=satish1010/httpd:deploy2
+  423  cat dep2.yaml
+  424  clear
+  425  kubectl  set image  deployment  satdep2 httpd=satish1010/httpd:deploy2
+  426  kubectl rollout history
+  427  kubectl rollout history deploy satdep2
+  428  kubectl describe deploy satdep2
+  429  clear
+  430  kubectl get deploy
+  431  kubectl get svc
+  432  kubectl get pod
+  433  kubectl rollout history deploy satdep2
+  434  kubectl describe deploy satdep2
+  435  clear
+  436  kubectl rollout undo deploy satdep2
+  437  kubectl rollout history deploy satdep2
+  438  kubectl describe deploy satdep2
+  439  clear
+  440  kubectl  set image  deployment  satdep2 httpd=satish1010/httpd:deploy
+  441  kubectl  set image  deployment  satdep2 httpd=satish1010/httpd:deploy2
+  442  history
+```
+---
 
 
