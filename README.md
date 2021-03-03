@@ -856,5 +856,36 @@ Events:
   442  history
 ```
 ---
+## Pushing Image to AWS registry:
+```
+# create a private registry in AWS(elastic container registry)
+
+# AWS CLI Install on Linux:
+curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+unzip awscliv2.zip
+sudo ./aws/install
+URL: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-linux.html
+
+# AWS configure list
+
+# Creating an administrator IAM user and group (console):
+https://docs.aws.amazon.com/IAM/latest/UserGuide/getting-started_create-admin-group.html
+https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html
+
+# aws configure:
+  AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
+  AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+  Default region name [None]: us-west-2
+  Default output format [None]: json
 
 
+# docker login to aws registry:
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 481584701067.dkr.ecr.us-east-1.amazonaws.com
+
+# tag image:
+docker tag httpd:latest 481584701067.dkr.ecr.us-east-1.amazonaws.com/httpd:latest
+
+# Push image to aws private registry:
+docker push 481584701067.dkr.ecr.us-east-1.amazonaws.com/httpd:latest
+```
+---
