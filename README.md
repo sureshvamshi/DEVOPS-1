@@ -662,13 +662,13 @@ api-resources
 ## Introduction To Deployment API Resource
 
 <img src="IntroductionToDeploymentAPIResource.PNG"/>
----
 
+---
 ## Deployment API Resource
 
 <img src="DeploymentAPIResource.PNG"/>
----
 
+---
 ## Create Deployment Api Resource, Expose as a Service and Roll-back
 ```
 1. created deployment api resource
