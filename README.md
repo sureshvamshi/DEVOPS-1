@@ -571,13 +571,13 @@ Events:
   Normal  Started    100s  kubelet            Started container satc1
 ```
 ---
-## Replication Controller:
+## Create Replication Controller, Expose as a Service & Scale up and down.
 ```
-- created a yaml for RC
+1.created a yaml for RC
      - created RC api resource
      - created a POD
- - scaled up and down
- - exposed RC as a service (NodePort)
+2.scaled up and down
+3.exposed RC as a service (NodePort)
 ```
 ---
 **commands:**
@@ -659,7 +659,16 @@ api-resources
  - Deployment
 ```
 ---
-## Deployment Api Resource:
+## Introduction To Deployment API Resource
+
+<img src="IntroductionToDeploymentAPIResource.PNG"/>
+---
+## Deployment API Resource
+
+<img src="DeploymentAPIResource.PNG"/>
+---
+
+## Create Deployment Api Resource, Expose as a Service and Roll-back
 ```
 1. created deployment api resource
    - deployment created
@@ -668,7 +677,7 @@ api-resources
 2. exposed deployment as a service(NodePort)
 3. deployment resource scaled up and down
 4. deployment roll-back
-````
+```
 ---
 **Deployment Resource Details:**
 ```
