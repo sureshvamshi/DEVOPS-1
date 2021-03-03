@@ -663,6 +663,7 @@ api-resources
 
 <img src="IntroductionToDeploymentAPIResource.PNG"/>
 ---
+
 ## Deployment API Resource
 
 <img src="DeploymentAPIResource.PNG"/>
@@ -679,6 +680,7 @@ api-resources
 4. deployment roll-back
 ```
 ---
+
 **Deployment Resource Details:**
 ```
 [root@master practice]# kubectl describe deploy satdep1
@@ -716,6 +718,7 @@ Events:
   Normal  ScalingReplicaSet  2m41s  deployment-controller  Scaled up replica set satdep1-78c87d988d to 3
 ```
 ---
+
 **commands:**
 ```
 310  kubectl get pods --show-labels
