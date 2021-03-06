@@ -889,3 +889,52 @@ docker tag httpd:latest 481584701067.dkr.ecr.us-east-1.amazonaws.com/httpd:lates
 docker push 481584701067.dkr.ecr.us-east-1.amazonaws.com/httpd:latest
 ```
 ---
+## Cluster Management:
+
+**Remove a Node from Master**
+```
+On Master Node
+Find the node
+kubectl get nodes
+Drain it
+kubectl drain nodetoberemoved
+Delete it
+kubectl delete node nodetoberemoved
+
+On Worker Node (nodetoberemoved). Remove join/init setting from node
+kubeadm reset
+```
+
+**Join Worker Node to Cluster**
+kubeadm join 172.31.83.226:6443 --token hcy4l9.ooi2xogwu9ntw55w --discovery-token-ca-cert-hash sha256:fd68e42073a95c7f4c4c190ff96f8f39bf8cbe813022e0964608f0b0d8b613ce
+
+
+**How to completely remove Kubernetes from your host machine on Centos**
+```
+Just quick answer on question, just type this commands:
+sudo docker rm `docker ps -a -q`
+sudo docker rmi `docker images -q`
+sudo kubeadm reset 
+sudo yum remove kubeadm kubectl kubelet kubernetes-cni kube*    
+sudo yum autoremove 
+sudo rm -rf ~/.kube
+
+From <https://www.devopscat.tech/2018/10/completely-remove-kubernetes-from-machine-on-centos/> 
+```
+
+**How to restart Kubernetes cluster**
+```
+In my case I am running 3 nodes in VM's by using Hyper-V. By using the following steps I was able to "restart" the cluster after restarting all VM's.
+	1. (Optional) Swap off
+$ swapoff -a
+	2. You have to restart all Docker containers
+$ docker restart $(docker ps -a -q)
+	3. Check the nodes status after you performed step 1 and 2 on all nodes (the status is NotReady)
+$ kubectl get nodes
+	4. Restart the node
+$ systemctl restart kubelet
+	5. Check again the status (now should be in Ready status)
+
+From <https://stackoverflow.com/questions/33671449/how-to-restart-kubernetes-nodes> 
+```
+---
