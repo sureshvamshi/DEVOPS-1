@@ -309,6 +309,7 @@ Link4: https://kubernetes.io/docs/tasks/tools/install-kubectl/
 
 2. set hostnames for all 3 VM's
 - hostnamectl set-hostname 'master'
+- sudo reboot
 
 3. create setup.sh script and write the following content into that. Execute this script on master and minion nodes.
 [root@ip-172-31-46-37 ~]# cat > setup.sh 
