@@ -143,4 +143,8 @@ Create three new variables (car_model, country_name and title) under the play an
         -
             command: 'echo "I work as a {{ title }}"'
 ```
+Inventory file
+```
+localhost ansible_connection=localhost nameserver_ip=10.1.250.10 snmp_port=160-161
+```
 ---
