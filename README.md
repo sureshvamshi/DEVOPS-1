@@ -62,6 +62,97 @@
 	ansible all -m ping
 ```
 ---
+## ansible commands
+```
+  331  cd test/
+  332  ls
+  333  vi inventory.txt
+  334  ansible --version
+  335  clear
+  336  ansible all -m ping
+  337  ansible all -m ping -i inventory.txt
+  338  ansible target1 -m ping -i inventory.txt
+  339  ansible target2 -m ping -i inventory.txt
+  340  ansible webservers -m ping -i inventory.txt
+  341  clear
+  342  cat inventory.txt
+  343  ansible all -m ping -i inventory.txt
+  344*
+  345  ansible all -m ping -i inventory.txt
+  346  clear
+  347  ls
+  348  cat playbook.yml
+  349  clear
+  350  cat playbook.yml
+  351  clear
+  352  cat inventory.txt
+  353  clear
+  354  ls
+  355  ansible-playbook playbook.yml -i inventory.txt
+```
+---
+## ansible-playbook commands
+```
+ 358  cat playbook-packageinstall.yml
+  359  cp playbook-packageinstall.yml playbook-packageinstall2.yml
+  360  clear
+  361  ls
+  362  vi playbook-packageinstall2.yml
+  363  mv  playbook-packageinstall2 playbook-httpdinstall.yml
+  364  mv  playbook-packageinstall2.yml playbook-httpdinstall.yml
+  365  clear
+  366  ls
+  367  ansible-playbook playbook-httpdinstall.yml -i inventory.txt
+  368  cat playbook-httpdinstall.yml
+  369  clear
+  370  vi playbook-httpdinstall.yml
+  371  ansible-playbook playbook-httpdinstall.yml -i inventory.txt
+  372  clear
+  373  vi playbook-httpdinstall.yml
+  374  ansible-playbook playbook-httpdinstall.yml -i inventory.txt
+  375  clear
+  376  vi playbook-httpdinstall.yml
+  377  ansible-playbook playbook-httpdinstall.yml -i inventory.txt
+  378  vi playbook-httpdinstall.yml
+  379  clear
+  380  ansible-playbook playbook-httpdinstall.yml -i inventory.txt
+  381  clear
+  382  cat playbook.yml
+  383  cat playbook-httpdinstall.yml
+  384  clear
+  385  ansible --version
+  386  cat playbook.yml
+  387  clear
+  388  cat playbook.yml
+  389  clear
+  390  cat playbook-httpdinstall.yml
+  391  vi playbook-httpdinstall.yml
+  392  clear
+  393  ansible-playbook playbook-httpdinstall.yml -i inventory.txt
+  394  clear
+  395  cat playbook-httpdinstall.yml
+  396  clear
+  397  cat playbook-httpdinstall.yml
+  398  clear
+  399  vi playbook-httpdinstall.yml
+  400  ansible-playbook playbook-httpdinstall.yml -i inventory.txt
+  401  clear
+  402  vi playbook-httpdinstall.yml
+  403  cat playbook-httpdinstall.yml
+  404  clear
+  405  ansible-playbook playbook-httpdinstall.yml -i inventory.txt
+  406  clear
+  407  ls
+  408  cat inventory.txt
+  409  celar
+  410  clear
+  411  vi inventory.txt
+  412  clear
+  413  vi playbook-httpdinstall.yml
+  414  ansible-playbook playbook-httpdinstall.yml -i inventory.txt
+  415  cat inventory.txt
+```
+---
 ## Ansible Modules Examples
 1. Update the playbook with a play to Execute a script on all web server nodes(web_nodes). The script is located at /tmp/install_script.sh
 ```
