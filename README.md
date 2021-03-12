@@ -1,5 +1,20 @@
 # ANSIBLE
 ---
+## Ansible Workflow
+
+<img src="Ansible_Workflow1.PNG"
+
+---
+## Ansible Introduction
+
+<img src="Ansible_Introduction.PNG"
+
+---
+## Ansible Features
+
+<img src="Ansible_Features.PNG"
+
+---
 ## Ansible Modules Examples
 1. Update the playbook with a play to Execute a script on all web server nodes(web_nodes). The script is located at /tmp/install_script.sh
 ```
