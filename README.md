@@ -62,6 +62,187 @@
 	ansible all -m ping
 ```
 ---
+## Modules and Variables explanations
+```
+Ansible:
+controller machine
+Inventory file
+Playbook(YAML)
+
+
+Modules
+plugins
+variables
+
+
+
+Ansible Path Details:
+ansible --version
+config file = /etc/ansible/ansible.cfg
+configured module search path = [u'/home/ec2-user/.ansible/plugins/modules', u'/usr/share/ansible/plugins/modules']
+  ansible python module location = /usr/lib/python2.7/site-packages/ansible
+  executable location = /usr/bin/ansible
+  python version = 2.7.18
+
+python --version
+
+
+Inventory File:
+1. default inventory file - /etc/ansible/hosts
+2. Inventory.txt
+
+
+
+Requirement1:
+inventory.txt
+   webserver
+
+
+Requirement2:
+inventory.txt
+   dbservers
+
+
+
+HostTypes:
+/etc/hosts
+
+localhost jenkins
+127.0.0.1:8080
+localhost:8080
+
+
+remotehosts jenkins
+remotehostip:8080
+
+
+Inventory File:
+list/array --> types or kinds
+dictionary/map --> single type(properties)
+
+ex1:
+container:
+ name:
+ image:
+ containerPort:
+ command:
+
+ex2:
+Banana
+{
+calories:
+{
+	carbs:
+	fat:
+}
+}
+
+ex3:
+car:
+colour:
+model:
+    name:
+    year:
+ transmission:
+price:
+
+
+
+List/array:
+- paly1
+   name: pingtest
+   ping:
+
+- play2 
+   name: execution
+   command: ls
+
+- play3
+   name:
+   yum:
+    name: nginx
+
+
+Ansible:
+Objective: it is used to perform a set of actions or tasks on a set of remote machines
+
+
+Ansible has:
+playbook.yml(YAML)
+inventory.txt(INI)
+
+Playbook development:
+IDE tools --> Integrated Development Environment tools (eclipse, jdeveloper)
+YAML or JASON --> ATOM
+
+
+Ansible playbook YAML files validation:
+option1:
+IDE TOOL(ATOM) installation on windows:
+1. download atom from internet
+2. install "linter-js-yaml" package
+
+option2:
+copy your playbook code and go to following site
+http://www.yamllint.com/
+
+
+
+Playbook examples:
+1. create a directory on all remote machines
+2. install httpd package on all remote machines
+3. start httpd application
+
+
+yum module examples:
+https://docs.ansible.com/ansible/latest/collections/ansible/builtin/yum_module.html#ansible-collections-ansible-builtin-yum-module
+
+
+Ansible will look for the completion of the task - started ?
+httpd
+ -  inactive = started ?
+ -  started = restarted, installed, reloaded
+    response: changed
+
+
+variable: to store some value or data
+
+Ansible variables:
+are used to store some value or data and can be defined either inside playbook or inside inventory file.
+
+
+Variables are used to get rid of hard coded values from playbook.
+
+Variables Inside a playbook: (need to define at the top of playbook look at following example)
+
+playbook.yaml
+ vars:
+  var1: value
+  var2: value
+
+to access the value from variables use the below examples for reference. 
+ ex1: '{{var1}}'
+ ex2: install {{httpd}} verify
+
+
+Variables Inside inventoryfile:
+ ex: target1 var1=value var2=value
+
+access: 
+ex1: '{{var1}}'
+ex2: install {{httpd}} verify
+
+
+Ansible:
+- features
+- installation
+- inventory file
+- playbooks
+- modules
+- variables
+```
+
+---
 ## ansible commands
 ```
   331  cd test/
