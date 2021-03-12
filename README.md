@@ -2,17 +2,17 @@
 ---
 ## Ansible Workflow
 
-<img src="Ansible_Workflow1.PNG"
+<img src="Ansible_Workflow1.PNG"/>
 
 ---
 ## Ansible Introduction
 
-<img src="Ansible_Introduction.PNG"
+<img src="Ansible_Introduction.PNG"/>
 
 ---
 ## Ansible Features
 
-<img src="Ansible_Features.PNG"
+<img src="Ansible_Features.PNG"/>
 
 ---
 ## Ansible Modules Examples
