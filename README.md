@@ -17,7 +17,7 @@ You may have noticed that this sounds a lot like a scientific method and we have
 - Test results when entering a valid username but invalid password
 - Check results when the username field is filled by password field is empty
 
-<img src="TestCase.PNG"/>
+<img src="TestCase.png"/>
 
 #### User Story
 -----
@@ -39,7 +39,7 @@ User stories:
 
 ### Testing Types
 ------
-<img src="TypesOfTesting.PNG"/>
+<img src="TypesOfTesting.png"/>
 
 #### In Detail:
 ---------
