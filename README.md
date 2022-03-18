@@ -38,6 +38,11 @@
   %wheel        ALL=(ALL)       NOPASSWD: ALL
 ```
 ---
+Note: Set Jenkins to listen on port 9090.
+sudo vi /lib/systemd/system/jenkins.service
+[Service]
+Environment="JENKINS_PORT=9090"
+---
 ## Types of Applications
 
 <img src="TypesOfApplications.png"/>
